@@ -557,9 +557,11 @@
     <string name="fingeroverlay">FingerOverlay</string>
     <string name="flash">Flash</string>
     <string name="focus">Focus</string>
+    <string name="hello_world">Hello world!</string>
     <string name="scan">Scan Fingerprint</string>
     <string name="scan_again">Scan Again</string>
     <string name="temp">You have successfully taken a picture. Please wait patiently for Gribov to program the rest of this app. Thanks! \n\n\n By the way, your finger is stored in ~/sdcard/Pictures/Fingerprint</string>
+    <string name="title_activity_actvity_binarizer">actvity_binarizer</string>
     <string name="title_activity_camera">CameraActivity</string>
     <string name="title_activity_camera_preview">CameraPreview</string>
     <string name="title_activity_process">ProcessActivity</string>
