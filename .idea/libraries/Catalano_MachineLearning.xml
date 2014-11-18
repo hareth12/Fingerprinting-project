@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Catalano.MachineLearning">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Fingerprint/libs/Catalano.MachineLearning.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

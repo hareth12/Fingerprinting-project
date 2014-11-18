@@ -1,0 +1,2 @@
+include ':Fingerprint'
+include ':appcompat_v7'

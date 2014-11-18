@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Catalano.Android.Image">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Fingerprint/libs/Catalano.Android.Image.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

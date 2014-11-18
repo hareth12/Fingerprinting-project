@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Catalano.Statistics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Fingerprint/libs/Catalano.Statistics.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

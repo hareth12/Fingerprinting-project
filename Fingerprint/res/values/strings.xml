@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fingerprint</string>
+    <string name="temp">You have successfully taken a picture. Please wait patiently for Gribov to program the rest of this app. Thanks! \n\n\n By the way, your finger is stored in ~/sdcard/Pictures/Fingerprint</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan">Scan Fingerprint</string>
+    <string name="title_activity_scanner">Finger Scanner</string>
+    <string name="title_activity_camera_preview">CameraPreview</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="fingeroverlay">FingerOverlay</string>
+    <string name="capture">Capture</string>
+    <string name="focus">Focus</string>
+    <string name="flash">Flash</string>
+    <string name="title_activity_process">ProcessActivity</string>
+    <string name="scan_again">Scan Again</string>
+    <string name="Binarizebutton">Binarize</string>
+
+</resources>
