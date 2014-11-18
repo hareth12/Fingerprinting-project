@@ -35,4 +35,15 @@
         android:layout_alignLeft="@+id/again"
         android:layout_alignStart="@+id/again" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/Binarize_button"
+        android:layout_alignStart="@+id/Binarize_button" />
+
+
+
 </RelativeLayout>
