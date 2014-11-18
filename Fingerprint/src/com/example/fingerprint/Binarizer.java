@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Environment;
 
 import java.io.File;
+import java.net.URI;
 
 import Catalano.Imaging.FastBitmap;
 import Catalano.Imaging.Filters.Threshold;
@@ -23,14 +24,14 @@ public class Binarizer extends Activity{
 
     private int windowSize = 41;
     private float pixelBrightnessDifferenceLimit = 0.15f;
-    FastBitmap fbm;
-    File img;
-    Bitmap bm ;
-    Threshold threshold;
 
+    File img;
+    Threshold threshold;
+    Bitmap bm;
     public Binarizer(){
         img = openImage();
-        //fbm = FastBitmap.(bm);
+        bm = new BitmapFactory(img.getAbsolutePath());
+        FastBitmap fbm = new FastBitmap(bm);
         //threshold = new Threshold();
         //threshold.applyInPlace(bm);
 
