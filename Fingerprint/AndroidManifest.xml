@@ -7,11 +7,16 @@
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="21" />
-    
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.FLASHLIGHT"/>
-    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +24,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.fingerprint.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,16 +33,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CameraActivity"
+            android:name="com.example.fingerprint.CameraActivity"
             android:label="@string/title_activity_camera" >
         </activity>
         <activity
-            android:name=".CameraPreview"
+            android:name="com.example.fingerprint.CameraPreview"
             android:label="@string/title_activity_camera_preview" >
         </activity>
         <activity
-            android:name=".ProcessActivity"
+            android:name="com.example.fingerprint.ProcessActivity"
             android:label="@string/title_activity_process" >
+        </activity>
+        <activity
+            android:name="com.example.fingerprint.actvity_binarizer"
+            android:label="@string/title_activity_actvity_binarizer"
+            android:parentActivityName="com.example.fingerprint.Binarizer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fingerprint.Binarizer" />
         </activity>
     </application>
 

@@ -732,16 +732,16 @@ false
                     msgid="2031811694353399454" >"Επιλέξτε κάποια εφαρμογή"
                 </string>
                 <string
-                    name="abc_searchview_description_voice"
-                    msgid="893419373245838918" >"Φωνητική αναζήτηση"
-                </string>
-                <string
                     name="abc_action_menu_overflow_description"
                     msgid="3588849162933574182" >"Περισσότερες επιλογές"
                 </string>
                 <string
                     name="abc_searchview_description_clear"
                     msgid="3691816814315814921" >"Διαγραφή ερωτήματος"
+                </string>
+                <string
+                    name="abc_searchview_description_voice"
+                    msgid="893419373245838918" >"Φωνητική αναζήτηση"
                 </string>
             </file>
             <file
@@ -932,16 +932,16 @@ true
                     msgid="4076576682505996667" >"Atlikta"
                 </string>
                 <string
-                    name="abc_searchview_description_search"
-                    msgid="8264924765203268293" >"Paieška"
-                </string>
-                <string
                     name="abc_shareactionprovider_share_with_application"
                     msgid="7165123711973476752" >"Bendrinti naudojant „%s“"
                 </string>
                 <string
                     name="abc_action_bar_home_description"
                     msgid="4600421777120114993" >"Eiti į pagrindinį puslapį"
+                </string>
+                <string
+                    name="abc_searchview_description_search"
+                    msgid="8264924765203268293" >"Paieška"
                 </string>
             </file>
             <file
@@ -1202,24 +1202,24 @@ true
                     msgid="3588849162933574182" >"Več možnosti"
                 </string>
                 <string
-                    name="abc_shareactionprovider_share_with"
-                    msgid="3421042268587513524" >"Deljenje z"
+                    name="abc_action_mode_done"
+                    msgid="4076576682505996667" >"Končano"
                 </string>
                 <string
                     name="abc_activity_chooser_view_see_all"
                     msgid="7468859129482906941" >"Pokaži vse"
                 </string>
                 <string
-                    name="abc_action_mode_done"
-                    msgid="4076576682505996667" >"Končano"
-                </string>
-                <string
-                    name="abc_searchview_description_submit"
-                    msgid="8928215447528550784" >"Pošiljanje poizvedbe"
+                    name="abc_shareactionprovider_share_with"
+                    msgid="3421042268587513524" >"Deljenje z"
                 </string>
                 <string
                     name="abc_searchview_description_query"
                     msgid="2550479030709304392" >"Iskalna poizvedba"
+                </string>
+                <string
+                    name="abc_searchview_description_submit"
+                    msgid="8928215447528550784" >"Pošiljanje poizvedbe"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
@@ -8381,19 +8381,9 @@ false
             <file
                 path="/home/kenny/android/projects/Fingerprint/Fingerprint/res/values/strings.xml"
                 qualifiers="" >
-                <string name="Binarizebutton" >Binarize
-                </string>
-                <string name="flash" >Flash
-                </string>
                 <string name="action_settings" >Settings
                 </string>
                 <string name="focus" >Focus
-                </string>
-                <string name="fingeroverlay" >FingerOverlay
-                </string>
-                <string name="title_activity_camera" >CameraActivity
-                </string>
-                <string name="app_name" >Fingerprint
                 </string>
                 <string name="scan_again" >Scan Again
                 </string>
@@ -8403,9 +8393,23 @@ false
                 </string>
                 <string name="title_activity_scanner" >Finger Scanner
                 </string>
-                <string name="capture" >Capture
+                <string name="title_activity_actvity_binarizer" >actvity_binarizer
                 </string>
                 <string name="title_activity_camera_preview" >CameraPreview
+                </string>
+                <string name="Binarizebutton" >Binarize
+                </string>
+                <string name="flash" >Flash
+                </string>
+                <string name="title_activity_camera" >CameraActivity
+                </string>
+                <string name="fingeroverlay" >FingerOverlay
+                </string>
+                <string name="app_name" >Fingerprint
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="capture" >Capture
                 </string>
                 <string name="scan" >Scan Fingerprint
                 </string>
@@ -8436,10 +8440,10 @@ false
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="activity_binarizer"
-                path="/home/kenny/android/projects/Fingerprint/Fingerprint/res/layout/activity_binarizer.xml"
+                name="menu_actvity_binarizer"
+                path="/home/kenny/android/projects/Fingerprint/Fingerprint/res/menu/menu_actvity_binarizer.xml"
                 qualifiers=""
-                type="layout" />
+                type="menu" />
         </source>
         <source path="/home/kenny/android/projects/Fingerprint/Fingerprint/build/generated/res/rs/debug" />
         <source path="/home/kenny/android/projects/Fingerprint/Fingerprint/build/generated/res/generated/debug" />

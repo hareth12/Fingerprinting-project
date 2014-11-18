@@ -15,5 +15,7 @@
     <string name="title_activity_process">ProcessActivity</string>
     <string name="scan_again">Scan Again</string>
     <string name="Binarizebutton">Binarize</string>
+    <string name="title_activity_actvity_binarizer">actvity_binarizer</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

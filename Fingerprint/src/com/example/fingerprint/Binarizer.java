@@ -2,12 +2,12 @@ package com.example.fingerprint;
 
 import android.app.Activity;
 import android.os.Environment;
-import android.widget.ImageView;
 
 import java.io.File;
 
 import Catalano.Imaging.FastBitmap;
 import Catalano.Imaging.Filters.Threshold;
+
 
 
 /**
@@ -19,19 +19,16 @@ public class Binarizer extends Activity{
     private float pixelBrightnessDifferenceLimit = 0.15f;
     FastBitmap bm ;
     Threshold threshold;
-    ImageView imageView;
 
     public Binarizer(){
-        setContentView(R.layout.activity_binarizer);
-        //bm = openImage();
-        //threshold = new Threshold();
-        //threshold.applyInPlace(bm);
-        //imageView = (ImageView)findViewById(R.id.activity_binarizer);
+        bm = openImage();
+        threshold = new Threshold();
+        threshold.applyInPlace(bm);
     }
 
 
 
-    public void openImage(){
+    private FastBitmap openImage(){
         FastBitmap bMap;
         File imgPath;
         String path;
@@ -42,8 +39,8 @@ public class Binarizer extends Activity{
         path += "/Fingerprints/Fingerprint.jpg";
         //convert to bitmap
         System.out.println("uri: "+path);
-        //bMap = new FastBitmap(path);
-        return;// bMap;
+        bMap = new FastBitmap(path);
+        return bMap;
     }
 
 
