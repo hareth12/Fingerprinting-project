@@ -14,7 +14,7 @@ import Catalano.Imaging.Filters.Threshold;
  * Created by kenny on 11/12/14.
  */
 
-// Gribov was here!!
+// Gribov was here!! dadada
 public class Binarizer extends Activity{
 
     private int windowSize = 41;
