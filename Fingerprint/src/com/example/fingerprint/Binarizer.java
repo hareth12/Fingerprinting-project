@@ -3,13 +3,10 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
-import android.widget.ImageView;
 
 import java.io.File;
 
 import Catalano.Imaging.FastBitmap;
-import Catalano.Imaging.Filters.BradleyLocalThreshold;
 import Catalano.Imaging.Filters.Threshold;
 
 
@@ -40,8 +37,9 @@ public void testThings() {
 
     }
 
-    public ImageView getimage(){
+    public Bitmap getimage(){
         Bitmap bm = img.toBitmap();
+        return bm;
     }
 
 
