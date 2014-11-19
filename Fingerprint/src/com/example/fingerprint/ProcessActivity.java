@@ -2,10 +2,12 @@ package com.example.fingerprint;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Gallery;
 
 public class ProcessActivity extends Activity {
 
@@ -47,8 +49,11 @@ public class ProcessActivity extends Activity {
         
     }
     public void show_image(View view){
-        Intent intent = new Intent (this, Show_Image_Activity.class) ;
-        startActivity(intent) ;
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        Binarizer binarizer = new Binarizer();
+        Uri androidUri = android.net.Uri.parse( binarizer.openImage().getAbsoluteFile().toURI().toString());
+        intent.setDataAndType(androidUri, "image/jpeg");
+        startActivity(intent);
     }
 
 }

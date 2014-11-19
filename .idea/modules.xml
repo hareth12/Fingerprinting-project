@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fingerprint.iml" filepath="$PROJECT_DIR$/Fingerprint.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Fingerprint/Fingerprint-Fingerprint.iml" filepath="$PROJECT_DIR$/Fingerprint/Fingerprint-Fingerprint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fingerprinting-project.iml" filepath="$PROJECT_DIR$/Fingerprinting-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" filepath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" />
     </modules>
   </component>
