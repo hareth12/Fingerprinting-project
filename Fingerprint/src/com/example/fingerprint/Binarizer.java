@@ -79,8 +79,6 @@ public void testThings() {
 
 // Different way of loading image
     /*private File openImage(){
-        BitmapFactory bMapmaker = new BitmapFactory();
-        Bitmap bMap;
         String path;
         File img, imgPath = new File(Environment.getExternalStoragePublicDirectory(
                 Environment.DIRECTORY_PICTURES), "Fingerprints");
@@ -88,7 +86,6 @@ public void testThings() {
         // open image (temporary way of opening image)
         path = imgPath.toURI().toString() + File.separator + "Fingerprint.jpg";
         img = new File(path);
-        //convert to FastBitmap
         return img;
     }*/
     private File openImage(){
