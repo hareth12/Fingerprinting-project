@@ -1,17 +1,13 @@
 package com.example.fingerprint;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.Environment;
 
 import java.io.File;
-import java.net.URI;
 
 import Catalano.Imaging.FastBitmap;
-import Catalano.Imaging.Filters.Threshold;
 
 
 
@@ -32,10 +28,6 @@ public class Binarizer extends Activity{
         img_path = openImage();
         Bitmap bm = BitmapFactory.decodeFile(img_path.getAbsolutePath()) ;
         img = new FastBitmap(bm);
-
-
-
-        
     }
     
     

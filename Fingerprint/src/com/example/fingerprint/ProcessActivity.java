@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 
 public class ProcessActivity extends Activity {
 
@@ -14,8 +13,8 @@ public class ProcessActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_process);
-        Binarizer x = new Binarizer();
-        ImageView IV = (ImageView) findViewById(R.id.imageView);
+        //Binarizer x = new Binarizer();
+        //ImageView IV = (ImageView) findViewById(R.id.imageView);
 
 
 	}
