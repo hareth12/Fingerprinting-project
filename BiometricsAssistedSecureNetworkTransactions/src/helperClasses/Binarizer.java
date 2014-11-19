@@ -22,10 +22,12 @@ import org.apache.commons.math3.stat.descriptive.moment.StandardDeviation;
 public class Binarizer {
 	public BufferedImage fingerprint;
 	public ArrayList<double[][]> blocks;
+	
 	public Binarizer(BufferedImage fingerprint)
 	{
 		this.fingerprint = fingerprint;
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BufferedImage img = null;
