@@ -9,11 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" line="40" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="Kenny 11/18/14 23:00">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/Fingerprint-Fingerprint.iml" afterPath="$PROJECT_DIR$/Fingerprint/Fingerprint-Fingerprint.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/build.gradle" afterPath="$PROJECT_DIR$/Fingerprint/build.gradle" />
+    <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -3091,7 +3087,11 @@
       <created>1416377411090</created>
       <updated>1416377411090</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Kenny 11/18/14 23:00">
+      <created>1416377799336</created>
+      <updated>1416377799336</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
