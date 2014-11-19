@@ -46,6 +46,11 @@ public class Binarizer extends Activity{
         //convert to FastBitmap
         return img;
     }
-
+    private File openImage(int randomint){
+        BitmapFactory bMapmaker = new BitmapFactory();
+        Bitmap bMap;
+        String path;
+        //File
+    }
 
 }

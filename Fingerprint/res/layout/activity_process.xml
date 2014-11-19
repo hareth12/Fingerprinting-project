@@ -23,7 +23,7 @@
         android:text="@string/scan_again"
         android:onClick="scanFinger"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/button" />
+        android:layout_above="@+id/button1" />
 
     <Button
         android:layout_width="wrap_content"

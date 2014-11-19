@@ -8,17 +8,23 @@
         revision="20.0.0"
         sha1="aaa3ec7d7bfb3446a9190c5b1f601f1eb94745e7"/>
     <item
-        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Neuro-ee3bb1b9dc9956f92b80b40433e7b64a539b9c9e.jar"
-        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Neuro.jar"
+        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Statistics-57169ff51457305a3b4b6636f3a7933702fce77e.jar"
+        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Statistics.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="a05a003a3cef63f19f399079710b381f730e7903"/>
+        sha1="cc2c693632966c588491928394b726c357f0c5cc"/>
     <item
         dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Core-c2721b4e2d131c413d1edf3484841bb9fe8c8db6.jar"
         jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Core.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="6a2799e08ce42b7ac340ff83768a77e7e3a54555"/>
+    <item
+        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Neuro-ee3bb1b9dc9956f92b80b40433e7b64a539b9c9e.jar"
+        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Neuro.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a05a003a3cef63f19f399079710b381f730e7903"/>
     <item
         dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Android.Image-df547e4e7fc86087df63e0c1cba5788d00057b96.jar"
         jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Android.Image.jar"
@@ -38,34 +44,22 @@
         revision="20.0.0"
         sha1="e4e68fd6b6c82160e8adf32f38f55a8570c0108a"/>
     <item
-        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/android-support-v4-ff864189f7c60f50d57f59c5b6592b5c93da71b8.jar"
-        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/libs/android-support-v4.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="efec67655f6db90757faa37201efcee2a9ec3507"/>
-    <item
         dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Fuzzy-775434dc53af3bf5184434225917aaf63ab7c931.jar"
         jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Fuzzy.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="db76dd981c19907d24c9cce38efdcb0509de7ac3"/>
     <item
+        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/android-support-v4-ff864189f7c60f50d57f59c5b6592b5c93da71b8.jar"
+        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507"/>
+    <item
         dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/classes-067e58b1d4446ace484cb98195858e129a1817d5.jar"
         jar="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="943088fa2f08398b6c9a20d6228b7cf34e835c50"/>
-    <item
-        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Image-3711115e9e21759ae1a40ce662ef237ded50ac3a.jar"
-        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Image.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="7e3b122e1303b1beab6ab63993a3a9cb80437d48"/>
-    <item
-        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Statistics-57169ff51457305a3b4b6636f3a7933702fce77e.jar"
-        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Statistics.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="cc2c693632966c588491928394b726c357f0c5cc"/>
+        sha1="efa777ef66f1d6c41d83e37fa187b3f09b705bf0"/>
 
 </pre-dex-items>
