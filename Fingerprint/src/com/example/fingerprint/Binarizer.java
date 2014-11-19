@@ -49,8 +49,9 @@ public class Binarizer extends Activity{
     private File openImage(int randomint){
         BitmapFactory bMapmaker = new BitmapFactory();
         Bitmap bMap;
-        String path;
-        //File
+        File img;
+        String path = getFilesDir() + File.separator + "res" +File.separator + "test.jpg";
+        return img;
     }
 
 }
