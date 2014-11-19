@@ -2,7 +2,9 @@ package com.example.fingerprint;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -55,6 +57,13 @@ public class Show_Image_Activity extends Activity {
         super.onCreate(savedInstanceState);
         ImageView current = new ImageView(null);
         ImageView imageView = getBinarizedImageView(current);
+        Binarizer binarizer = new Binarizer();
+        Intent intent = new Intent();
+
+        Uri androidUri = android.net.Uri.parse( binarizer.openImage().getAbsoluteFile().toURI().toString());
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setDataAndType(androidUri, "image");
+        startActivity(intent);
         setContentView(imageView);
         setupActionBar();
         //lets get us an ImageView!
@@ -146,7 +155,7 @@ public class Show_Image_Activity extends Activity {
     /**
      * Set up the {@link android.app.ActionBar}, if the API is available.
      */
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+        @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setupActionBar() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             // Show the Up button in the action bar.

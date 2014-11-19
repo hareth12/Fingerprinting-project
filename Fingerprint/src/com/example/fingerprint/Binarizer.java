@@ -103,7 +103,7 @@ public void testThings() {
         img = new File(path);
         return img;
     }*/
-    private File openImage(){
+    public File openImage(){
         String path = getFilesDir() + File.separator + "res" +File.separator + "test.jpg";
         File img = new File(path);
         return img;
