@@ -4,10 +4,14 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -15,6 +19,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.fingerprint.util.SystemUiHider;
+
+import java.io.File;
+import java.nio.Buffer;
 
 
 /**
@@ -55,23 +62,18 @@ public class Show_Image_Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ImageView current = new ImageView(null);
-        ImageView imageView = getBinarizedImageView(current);
         Binarizer binarizer = new Binarizer();
-        Intent intent = new Intent();
+        ImageView current = new ImageView(null);
+        Canvas canvas = new Canvas(binarizer.getBitmap());
+        View imageView = findViewById(R.id.imageView);
+        imageView.draw(canvas);
 
-        Uri androidUri = android.net.Uri.parse( binarizer.openImage().getAbsoluteFile().toURI().toString());
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setDataAndType(androidUri, "image");
-        startActivity(intent);
-        setContentView(imageView);
-        setupActionBar();
         //lets get us an ImageView!
 
 
 
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
-        final View contentView = findViewById(R.id.imageView1);
+        final View contentView = findViewById(R.id.imageView);
 
         // Set up an instance of SystemUiHider to control the system UI for
         // this activity.
