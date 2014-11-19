@@ -3,6 +3,9 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Picture;
+import android.media.Image;
 
 import java.io.File;
 
@@ -37,9 +40,15 @@ public void testThings() {
 
     }
 
-    public Bitmap getimage(){
+    public Bitmap getBitmap(){
         Bitmap bm = img.toBitmap();
         return bm;
+    }
+
+    public Image getImage(){
+        Picture picture = new Picture();
+        Canvas canvas = picture.beginRecording(img.toBitmap().getWidth(), img.toBitmap().getHeight());
+        Image image = img
     }
 
 

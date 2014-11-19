@@ -43,8 +43,12 @@ public class ProcessActivity extends Activity {
 		startActivity(intent) ;
 		
 	}
-    public void binarizer(View view){
-        Intent intent = new Intent(this, Binarizer.class);
-        startActivity(intent);
+    public void binarizer(View view) {
+        
     }
+    public void show_image(View view){
+        Intent intent = new Intent (this, Show_Image_Activity.class) ;
+        startActivity(intent) ;
+    }
+
 }

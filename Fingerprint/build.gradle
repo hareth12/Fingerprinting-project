@@ -8,6 +8,7 @@ dependencies {
     compile files('libs/Catalano.Fuzzy.jar')
     compile files('libs/Catalano.Math.jar')
     compile files('libs/Catalano.Image.jar')
+    compile 'com.android.support:support-v4:21.0.0'
 }
 
 android {

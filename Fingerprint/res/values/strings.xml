@@ -17,5 +17,9 @@
     <string name="Binarizebutton">Binarize</string>
     <string name="title_activity_actvity_binarizer">actvity_binarizer</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_show__image_">Show_Image_Activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Show_image">Show Processed Image</string>
 
 </resources>
