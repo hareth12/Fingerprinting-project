@@ -2,6 +2,7 @@ package com.example.fingerprint;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -62,11 +63,9 @@ public class Show_Image_Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ImageView imageView = new ImageView(this);
         Binarizer binarizer = new Binarizer();
-        ImageView current = new ImageView(null);
-        Canvas canvas = new Canvas(binarizer.getBitmap());
-        View imageView = findViewById(R.id.imageView);
-        imageView.draw(canvas);
+        imageView.setImageBitmap(binarizer.getBitmap());
 
         //lets get us an ImageView!
 

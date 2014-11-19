@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" afterPath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" afterPath="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -1140,9 +1140,11 @@
       <file leaf-file-name="activity_show__image_.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="558">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
+            <state vertical-scroll-proportion="-22.153847" vertical-offset="0" max-vertical-offset="738">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#1477#1499#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -1170,18 +1172,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Show_Image_Activity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Show_Image_Activity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="3654">
-              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.32352942" vertical-offset="936" max-vertical-offset="4014">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
               <folding>
-                <element signature="e#4604#4893#0" expanded="true" />
-                <element signature="e#4882#4883#0" expanded="true" />
-                <element signature="e#7190#7443#0" expanded="true" />
-                <element signature="e#7436#7437#0" expanded="true" />
-                <element signature="e#7517#7630#0" expanded="true" />
-                <element signature="e#7623#7624#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4549#4838#0" expanded="true" />
+                <element signature="e#4827#4828#0" expanded="true" />
+                <element signature="e#7135#7388#0" expanded="true" />
+                <element signature="e#7381#7382#0" expanded="true" />
+                <element signature="e#7462#7575#0" expanded="true" />
+                <element signature="e#7568#7569#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1200,11 +1203,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProcessActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80263156" vertical-offset="60" max-vertical-offset="972">
-              <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="972">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1243,8 +1246,8 @@
       <file leaf-file-name="Binarizer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1998">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1998">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2247,8 +2250,8 @@
         <option value="$PROJECT_DIR$/Fingerprint/build.gradle" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
         <option value="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" />
-        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
+        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" />
       </list>
     </option>
   </component>
@@ -2795,7 +2798,11 @@
       <created>1416418484797</created>
       <updated>1416418484797</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Kenny 11/19/14 13:00">
+      <created>1416420888166</created>
+      <updated>1416420888166</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2808,13 +2815,13 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.87752926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29073483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.94934875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5010846" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.24891461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="1390" y="391" width="213" height="358" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24813631" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="0" y="643" width="1920" height="426" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4992764" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" x="683" y="414" width="74" height="38" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2851,7 +2858,8 @@
     <MESSAGE value="Kenny 11/18/14 14:49" />
     <MESSAGE value="Kenny 11/18/14 23:00" />
     <MESSAGE value="Kenny 11/19/14 01:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kenny 11/19/14 01:00" />
+    <MESSAGE value="Kenny 11/19/14 13:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kenny 11/19/14 13:00" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3192,14 +3200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1998">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/res/values/attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
@@ -3216,32 +3216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="558">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="3654">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="e#4604#4893#0" expanded="true" />
-            <element signature="e#4882#4883#0" expanded="true" />
-            <element signature="e#7190#7443#0" expanded="true" />
-            <element signature="e#7436#7437#0" expanded="true" />
-            <element signature="e#7517#7630#0" expanded="true" />
-            <element signature="e#7623#7624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3253,11 +3227,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.153847" vertical-offset="0" max-vertical-offset="738">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#1477#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1998">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80263156" vertical-offset="60" max-vertical-offset="972">
-          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="972">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32352942" vertical-offset="936" max-vertical-offset="4014">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4549#4838#0" expanded="true" />
+            <element signature="e#4827#4828#0" expanded="true" />
+            <element signature="e#7135#7388#0" expanded="true" />
+            <element signature="e#7381#7382#0" expanded="true" />
+            <element signature="e#7462#7575#0" expanded="true" />
+            <element signature="e#7568#7569#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
