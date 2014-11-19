@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import java.io.File;
 
 import Catalano.Imaging.FastBitmap;
+import Catalano.Imaging.Filters.BradleyLocalThreshold;
 import Catalano.Imaging.Filters.Threshold;
 
 
@@ -32,17 +33,15 @@ public class Binarizer extends Activity{
     }
     
     
-    public void testThings() {
-    	Threshold threshold;
-    	threshold = new Threshold();
-    	threshold.applyInPlace(img);
+public void testThings() {
+    Threshold threshold;
+    threshold = new Threshold();
+    threshold.applyInPlace(img);
 
     }
 
-    public Bitmap getImage(){
-    	
-        return img.toBitmap();    
-
+    public ImageView getimage(){
+        Bitmap bm = img.toBitmap();
     }
 
 
