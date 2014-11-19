@@ -10,6 +10,7 @@ import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.example.fingerprint.util.SystemUiHider;
 
@@ -52,12 +53,16 @@ public class Show_Image_Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_show__image_);
+        ImageView current = new ImageView(null);
+        ImageView imageView = getBinarizedImageView(current);
+        setContentView(imageView);
         setupActionBar();
+        //lets get us an ImageView!
+
+
 
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
-        final View contentView = findViewById(R.id.fullscreen_content);
+        final View contentView = findViewById(R.id.imageView1);
 
         // Set up an instance of SystemUiHider to control the system UI for
         // this activity.
@@ -118,8 +123,14 @@ public class Show_Image_Activity extends Activity {
         // while interacting with the UI.
         findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
 
-        //open Binarizer bitmap
-        Bitmap bm = Binarizer.getBitmap();
+
+    }
+
+    private ImageView getBinarizedImageView(ImageView imageView){
+        Binarizer binarizer = new Binarizer();
+        Bitmap bm = binarizer.getBitmap();
+        imageView.setImageBitmap(bm);
+        return imageView;
     }
 
     @Override

@@ -8,6 +8,24 @@
         revision="20.0.0"
         sha1="aaa3ec7d7bfb3446a9190c5b1f601f1eb94745e7"/>
     <item
+        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/classes-2dd5949c2a951888a19fa98688040d31dbcdc7ce.jar"
+        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-907823c5ed608effc35d2af5e76bd476d459afbb.jar"
+        jar="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-f5cac37ba606ae5066cd8770aa90197b7b0f67f6.jar"
+        jar="/home/kenny/android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
         dex="/home/kenny/android/projects/Fingerprint/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Statistics-57169ff51457305a3b4b6636f3a7933702fce77e.jar"
         jar="/home/kenny/android/projects/Fingerprint/Fingerprint/libs/Catalano.Statistics.jar"
         jumboMode="false"
