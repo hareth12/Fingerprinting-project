@@ -32,16 +32,16 @@ public class Binarizer extends Activity{
     }
     
     
-public void testThings() {
-    Threshold threshold;
-    threshold = new Threshold();
-    threshold.applyInPlace(img);
+    public void testThings() {
+    	Threshold threshold;
+    	threshold = new Threshold();
+    	threshold.applyInPlace(img);
 
     }
 
-    public ImageView getimage(){
-        ImageView imgView = (ImageView)findViewById(R.id.image3)
-        Bitmap bm = img.toBitmap();
+    public Bitmap getImage(){
+    	
+        return img.toBitmap();    
 
     }
 
