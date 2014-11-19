@@ -22,27 +22,23 @@ import Catalano.Imaging.Filters.Threshold;
 // Gribov was here!! 
 public class Binarizer extends Activity{
 
-    private int windowSize = 41;
-    private float pixelBrightnessDifferenceLimit = 0.15f;
-
-    File img;
-    Threshold threshold;
-    Bitmap bm;
+    //Threshold threshold;
+    FastBitmap img;
+       
+    //threshold = new Threshold();
+    //threshold.applyInPlace(bm); 
     public Binarizer(){
-        img = openImage();
-        bm = new BitmapFactory(img.getAbsolutePath());
-        FastBitmap fbm = new FastBitmap(bm);
-        //threshold = new Threshold();
-        //threshold.applyInPlace(bm);
+    	File img_path;
+        img_path = openImage();
+        Bitmap bm = BitmapFactory.decodeFile(img_path.getAbsolutePath()) ;
+        img = new FastBitmap(bm);
 
 
-        Intent intent = new Intent(this, ProcessActivity.class);
-        intent.setAction(android.content.Intent.ACTION_VIEW);
-        Uri androidUri = android.net.Uri.parse(img.getAbsoluteFile().toURI().toString());
-        intent.setData(androidUri);
-        startActivity(intent);
+
+        
     }
-
+    
+    
 
 
     private File openImage(){
