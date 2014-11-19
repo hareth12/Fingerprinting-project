@@ -22,8 +22,9 @@
         android:layout_height="wrap_content"
         android:text="@string/scan_again"
         android:onClick="scanFinger"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@+id/button1" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -32,18 +33,19 @@
         android:id="@+id/Binarize_button"
         android:onClick="binarizer"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/again"
-        android:layout_alignStart="@+id/again" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="41dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:layout_above="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:layout_alignLeft="@+id/Binarize_button"
-        android:layout_alignStart="@+id/Binarize_button" />
-
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="29dp" />
 
 
 </RelativeLayout>

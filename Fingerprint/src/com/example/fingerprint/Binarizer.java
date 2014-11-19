@@ -3,11 +3,13 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.Image;
+import android.widget.ImageView;
 
 import java.io.File;
 
 import Catalano.Imaging.FastBitmap;
-
+import Catalano.Imaging.Filters.Threshold;
 
 
 /**
@@ -17,13 +19,13 @@ import Catalano.Imaging.FastBitmap;
 // Gribov was here!! 
 public class Binarizer extends Activity{
 
-    //Threshold threshold;
+
     FastBitmap img;
        
-    //threshold = new Threshold();
-    //threshold.applyInPlace(bm); 
+
     public Binarizer(){
-    	File img_path;
+
+        File img_path;
         img_path = openImage();
         Bitmap bm = BitmapFactory.decodeFile(img_path.getAbsolutePath()) ;
         img = new FastBitmap(bm);
@@ -31,10 +33,19 @@ public class Binarizer extends Activity{
     
     
 public void testThings() {
-    	
-    	
+    Threshold threshold;
+    threshold = new Threshold();
+    threshold.applyInPlace(img);
+
     }
-    
+
+    public ImageView getimage(){
+        ImageView imgView = (ImageView)findViewById(R.id.image3)
+        Bitmap bm = img.toBitmap();
+
+    }
+
+
     // EASY FUNCTIONS WE NEED TO MAKE OR FIND:
     
     //private void imrotate() {}
