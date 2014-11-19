@@ -77,9 +77,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
     <orderEntry type="library" exported="" name="Catalano.Core" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-21.0.0" level="project" />
     <orderEntry type="library" exported="" name="Catalano.Statistics" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-21.0.0" level="project" />
     <orderEntry type="library" exported="" name="Catalano.Image" level="project" />
     <orderEntry type="library" exported="" name="Catalano.Fuzzy" level="project" />
     <orderEntry type="library" exported="" name="Catalano.Neuro" level="project" />
