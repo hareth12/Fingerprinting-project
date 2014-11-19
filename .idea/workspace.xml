@@ -15,9 +15,821 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" afterPath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/generated/source/buildConfig/test/debug/com/example/fingerprint/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/libs/android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/libs/android-support-v7-appcompat.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/anim/abc_fade_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/anim/abc_fade_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/anim/abc_slide_in_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/anim/abc_slide_in_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/anim/abc_slide_out_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/anim/abc_slide_out_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/color/abc_search_url_text_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-hdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-mdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xhdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable-xxhdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_ic_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_ic_clear_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_item_background_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_item_background_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_list_selector_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_list_selector_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_search_dropdown_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_search_dropdown_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_spinner_ab_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_spinner_ab_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_tab_indicator_ab_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_right_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_right_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout-v11/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout-v11/abc_simple_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout-v14/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_decor_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_decor_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_tab.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_tabbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_title_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_mode_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_expanded_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_list_menu_item_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_list_menu_item_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_list_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_list_menu_item_radio.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_popup_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_search_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/abc_simple_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/layout/support_simple_spinner_dropdown_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-af/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-am/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-bg/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ca/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-da/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-el/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-en-rGB/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-en-rIN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-es-rUS/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-et-rEE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-fa/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-fr-rCA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-hi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-hr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-hu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-hy-rAM/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-in/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ka-rGE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-km-rKH/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-land/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-large-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-large-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-lo-rLA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-lt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-lv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-mn-rMN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ms-rMY/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-nb/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-pt-rPT/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-sk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-sl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-sr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-sv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-sw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-sw600dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-th/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-tl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-tr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-uk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-vi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-w360dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-w480dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-w500dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-w600dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-w720dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-xlarge-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-zh-rCN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-zh-rHK/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-zh-rTW/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values-zu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/generated/source/buildConfig/test/debug/android/support/v7/appcompat/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/generated/source/r/test/debug/android/support/v7/appcompat/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/generated/source/r/test/debug/android/support/v7/appcompat/test/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/libs/appcompat_v7-debug-test.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/manifests/test/debug/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/anim/abc_fade_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/anim/abc_fade_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/anim/abc_slide_in_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/anim/abc_slide_in_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/anim/abc_slide_out_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/anim/abc_slide_out_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/color/abc_search_url_text_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-hdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-mdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xhdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable-xxhdpi-v4/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_ic_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_ic_clear_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_item_background_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_item_background_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_list_selector_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_list_selector_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_search_dropdown_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_search_dropdown_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_spinner_ab_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_spinner_ab_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_tab_indicator_ab_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_textfield_searchview_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_textfield_searchview_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_textfield_searchview_right_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/drawable/abc_textfield_searchview_right_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout-v11/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout-v11/abc_simple_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout-v14/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_decor_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_decor_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_tab.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_tabbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_title_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_mode_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_activity_chooser_view_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_activity_chooser_view_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_expanded_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_list_menu_item_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_list_menu_item_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_list_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_list_menu_item_radio.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_popup_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_search_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/abc_simple_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/layout/support_simple_spinner_dropdown_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-af/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-am/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-bg/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ca/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-da/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-el/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-en-rGB/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-en-rIN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-es-rUS/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-et-rEE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-fa/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-fr-rCA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-hi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-hr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-hu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-hy-rAM/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-in/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ka-rGE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-km-rKH/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-land/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-large-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-large-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-lo-rLA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-lt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-lv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-mn-rMN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ms-rMY/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-nb/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-pt-rPT/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-sk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-sl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-sr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-sv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-sw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-sw600dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-th/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-tl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-tr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-uk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-vi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-w360dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-w480dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-w500dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-w600dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-w720dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-xlarge-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-zh-rCN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-zh-rHK/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-zh-rTW/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values-zu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/res/test/debug/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcompat_v7/build/intermediates/symbols/test/debug/R.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" afterPath="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -1140,11 +1952,9 @@
       <file leaf-file-name="activity_show__image_.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.153847" vertical-offset="0" max-vertical-offset="738">
+            <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="738">
               <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="e#1477#1499#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -1165,7 +1975,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="558">
               <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
@@ -1175,16 +1985,16 @@
       <file leaf-file-name="Show_Image_Activity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32352942" vertical-offset="936" max-vertical-offset="4014">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.53521127" vertical-offset="900" max-vertical-offset="4050">
+              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4549#4838#0" expanded="true" />
-                <element signature="e#4827#4828#0" expanded="true" />
-                <element signature="e#7135#7388#0" expanded="true" />
-                <element signature="e#7381#7382#0" expanded="true" />
-                <element signature="e#7462#7575#0" expanded="true" />
-                <element signature="e#7568#7569#0" expanded="true" />
+                <element signature="e#4594#4883#0" expanded="true" />
+                <element signature="e#4872#4873#0" expanded="true" />
+                <element signature="e#7180#7433#0" expanded="true" />
+                <element signature="e#7426#7427#0" expanded="true" />
+                <element signature="e#7507#7620#0" expanded="true" />
+                <element signature="e#7613#7614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1193,7 +2003,7 @@
       <file leaf-file-name="activity_process.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="954">
+            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="954">
               <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding />
             </state>
@@ -1207,7 +2017,7 @@
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="972">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1246,8 +2056,8 @@
       <file leaf-file-name="Binarizer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1998">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1998">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -2248,9 +3058,9 @@
         <option value="$PROJECT_DIR$/Fingerprint/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml" />
         <option value="$PROJECT_DIR$/Fingerprint/build.gradle" />
-        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
         <option value="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
+        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" />
       </list>
     </option>
@@ -2305,9 +3115,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2318,100 +3125,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimens.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fingerprint" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2450,6 +3163,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2654,7 +3370,7 @@
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -2812,10 +3528,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29073483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29073483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.94934875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2835,6 +3550,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2896,16 +3612,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="774">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#933#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/res/menu/process.xml">
@@ -2999,7 +3713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="270">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3075,25 +3788,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_camera.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_camera.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/MainActivity.java">
@@ -3172,7 +3883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3217,57 +3927,55 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="954">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="954">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.153847" vertical-offset="0" max-vertical-offset="738">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#1477#1499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
+    <entry file="file://$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1998">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="738">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="972">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1998">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32352942" vertical-offset="936" max-vertical-offset="4014">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.53521127" vertical-offset="900" max-vertical-offset="4050">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4549#4838#0" expanded="true" />
-            <element signature="e#4827#4828#0" expanded="true" />
-            <element signature="e#7135#7388#0" expanded="true" />
-            <element signature="e#7381#7382#0" expanded="true" />
-            <element signature="e#7462#7575#0" expanded="true" />
-            <element signature="e#7568#7569#0" expanded="true" />
+            <element signature="e#4594#4883#0" expanded="true" />
+            <element signature="e#4872#4873#0" expanded="true" />
+            <element signature="e#7180#7433#0" expanded="true" />
+            <element signature="e#7426#7427#0" expanded="true" />
+            <element signature="e#7507#7620#0" expanded="true" />
+            <element signature="e#7613#7614#0" expanded="true" />
           </folding>
         </state>
       </provider>

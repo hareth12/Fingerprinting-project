@@ -30,7 +30,7 @@
         jar="/home/kenny/android/Projects/Fingerprinting-project/Fingerprint/build/intermediates/exploded-aar/Fingerprinting-project/appcompat_v7/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="7f1726a603e13a60bd03563688aaeea59bced9c3"/>
+        sha1="3a534538a8a8b6684fc40fea6b0aa0cfee578c16"/>
     <item
         dex="/home/kenny/android/Projects/Fingerprinting-project/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Fuzzy-005ef569da571a95831ef679480cdcd4ed3a79b5.jar"
         jar="/home/kenny/android/Projects/Fingerprinting-project/Fingerprint/libs/Catalano.Fuzzy.jar"

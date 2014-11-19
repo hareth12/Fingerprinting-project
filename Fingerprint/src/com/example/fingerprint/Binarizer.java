@@ -30,10 +30,10 @@ public class Binarizer extends Activity{
     }
     
     
-public void testThings() {
-    Threshold threshold;
-    threshold = new Threshold();
-    threshold.applyInPlace(img);
+    public void testThings() {
+        Threshold threshold;
+        threshold = new Threshold();
+        threshold.applyInPlace(img);
 
     }
 

@@ -32,6 +32,11 @@ import java.nio.Buffer;
  * @see SystemUiHider
  */
 public class Show_Image_Activity extends Activity {
+    public void Show_Image_Activity(){
+        ImageView imageView = new ImageView(this);
+        Binarizer binarizer = new Binarizer();
+        imageView.setImageBitmap(binarizer.getBitmap());
+    }
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -63,9 +68,6 @@ public class Show_Image_Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ImageView imageView = new ImageView(this);
-        Binarizer binarizer = new Binarizer();
-        imageView.setImageBitmap(binarizer.getBitmap());
 
         //lets get us an ImageView!
 
