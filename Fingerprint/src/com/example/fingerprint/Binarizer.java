@@ -39,12 +39,11 @@ public class Binarizer extends Activity{
         String path;
         File img, imgPath = new File(Environment.getExternalStoragePublicDirectory(
                 Environment.DIRECTORY_PICTURES), "Fingerprints");
-        // open image (temporary way of opening image)
 
+        // open image (temporary way of opening image)
         path = imgPath.toURI().toString() + File.separator + "Fingerprint.jpg";
         img = new File(path);
         //convert to FastBitmap
-        bMap = bMapmaker.decodeFile(path);
         return img;
     }
 

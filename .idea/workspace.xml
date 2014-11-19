@@ -6,46 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="Kenny 11/18/14 14:49">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/CameraPreview.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/ProcessActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/classes/debug/com/example/fingerprint/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/dex/debug/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Android.Image-df547e4e7fc86087df63e0c1cba5788d00057b96.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Core-c2721b4e2d131c413d1edf3484841bb9fe8c8db6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Fuzzy-775434dc53af3bf5184434225917aaf63ab7c931.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.MachineLearning-97af9938d8edbdfb513f8f3f0e200eaf5b42b49b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Math-82d78b7b3e1188f369a1584f10e7d751f4eb0fab.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Neuro-ee3bb1b9dc9956f92b80b40433e7b64a539b9c9e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/Catalano.Statistics-57169ff51457305a3b4b6636f3a7933702fce77e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/android-support-v4-ff864189f7c60f50d57f59c5b6592b5c93da71b8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/android-support-v7-appcompat-06781dd799ec3d7f4813ae239b2f7735f5d7526c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/pre-dexed/debug/classes-067e58b1d4446ace484cb98195858e129a1817d5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/outputs/apk/Fingerprint-debug-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/build/outputs/apk/Fingerprint-debug.apk" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/classes.jar" afterPath="$PROJECT_DIR$/Fingerprint/build/intermediates/exploded-aar/Fingerprint/appcompat_v7/unspecified/classes.jar" />
+    <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -1185,21 +1147,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Binarizer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Binarizer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="918">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.5934959" vertical-offset="230" max-vertical-offset="900">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProcessActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40243903" vertical-offset="0" max-vertical-offset="900">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -2719,8 +2681,8 @@
         <option value="$PROJECT_DIR$/Fingerprint/res/layout/activity_binarizer.xml" />
         <option value="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" />
         <option value="$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml" />
-        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
+        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
       </list>
     </option>
   </component>
@@ -3234,12 +3196,16 @@
       <created>1416348352796</created>
       <updated>1416348352796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Kenny 11/18/14 14:49">
+      <created>1416367481861</created>
+      <updated>1416367481861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="17" width="1442" height="833" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3252,7 +3218,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5010846" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24891461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24891461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4992764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="683" y="414" width="74" height="38" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3680,14 +3646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="918">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="882">
@@ -3698,8 +3656,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40243903" vertical-offset="0" max-vertical-offset="900">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5934959" vertical-offset="230" max-vertical-offset="900">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
