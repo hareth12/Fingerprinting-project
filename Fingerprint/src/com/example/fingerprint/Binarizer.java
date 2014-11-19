@@ -32,8 +32,8 @@ public class Binarizer extends Activity{
     
     
 
-
-    private File openImage(){
+// Different way of loading image
+    /*private File openImage(){
         BitmapFactory bMapmaker = new BitmapFactory();
         Bitmap bMap;
         String path;
@@ -45,12 +45,12 @@ public class Binarizer extends Activity{
         img = new File(path);
         //convert to FastBitmap
         return img;
-    }
+    }*/
     private File openImage(int randomint){
         BitmapFactory bMapmaker = new BitmapFactory();
         Bitmap bMap;
-        File img;
         String path = getFilesDir() + File.separator + "res" +File.separator + "test.jpg";
+        File img = new File(path);
         return img;
     }
 
