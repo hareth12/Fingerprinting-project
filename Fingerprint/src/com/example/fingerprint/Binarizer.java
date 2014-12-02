@@ -98,7 +98,7 @@ public class Binarizer extends Activity{
                 Environment.DIRECTORY_PICTURES), "Fingerprints");
 
         // open image (temporary way of opening image)
-        path = imgPath.toURI().toString() + File.separator + "Fingerprint.jpg";
+        path = imgPath.toURI().toString() + File.separator + "fingerprint.jpg";
         img = new File(path);
         return img;
     }
