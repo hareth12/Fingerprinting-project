@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.Image;
+import android.os.Environment;
 import android.util.Log;
 import android.widget.ImageView;
 
@@ -41,7 +42,7 @@ public class Binarizer extends Activity{
 
     }
 
-    public Bitmap getImage(){
+    public Bitmap getBitmap(){
     	
         return img.toBitmap();    
 
@@ -91,7 +92,7 @@ public class Binarizer extends Activity{
     
 
 // Different way of loading image
-    /*private File openImage(){
+    private File openImage(){
         String path;
         File img, imgPath = new File(Environment.getExternalStoragePublicDirectory(
                 Environment.DIRECTORY_PICTURES), "Fingerprints");
@@ -100,12 +101,12 @@ public class Binarizer extends Activity{
         path = imgPath.toURI().toString() + File.separator + "Fingerprint.jpg";
         img = new File(path);
         return img;
-    }*/
-    private File openImage(){
+    }
+    /*private File openImage(){
         String path = getFilesDir() + File.separator + "res" + File.separator 
         							+ "drawable-hdpi" + File.separator + "test.jpg";
         File img = new File(path);
         return img;
-    }
+    }*/
 
 }
