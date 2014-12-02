@@ -12,12 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/res/layout/activity_show__image_.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" afterPath="$PROJECT_DIR$/Fingerprint/build/generated/source/r/debug/com/example/fingerprint/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml" afterPath="$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -2693,7 +2687,11 @@
       <created>1417557255919</created>
       <updated>1417557255919</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="got IMAGEVIEW WORKING!!!!!">
+      <created>1417559625430</created>
+      <updated>1417559625430</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2707,7 +2705,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47816828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47816828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.94934875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2751,7 +2749,8 @@
     <MESSAGE value="Kenny 12/02/14 15:00" />
     <MESSAGE value="Kenny 12/02/14 15:30" />
     <MESSAGE value="fixed problem with file path, was an issue inside of the file path returned by openImage():&#10;it originally had  &quot;file://&quot; at begining of string of the file path&#10;used path = imgPath.getAbsolutePath() to solve this problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed problem with file path, was an issue inside of the file path returned by openImage():&#10;it originally had  &quot;file://&quot; at begining of string of the file path&#10;used path = imgPath.getAbsolutePath() to solve this problem." />
+    <MESSAGE value="got IMAGEVIEW WORKING!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="got IMAGEVIEW WORKING!!!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
