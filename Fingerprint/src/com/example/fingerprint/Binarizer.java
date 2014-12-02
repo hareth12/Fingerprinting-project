@@ -3,6 +3,9 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.Image;
+import android.util.Log;
+import android.widget.ImageView;
 
 import java.io.File;
 
@@ -22,32 +25,27 @@ public class Binarizer extends Activity{
        
 
     public Binarizer(){
-
+    	Log.d("Binarizer", "Got to step 1") ;
         File img_path;
         img_path = openImage();
+        Log.d("Binarizer", "Got to step 2") ;
         Bitmap bm = BitmapFactory.decodeFile(img_path.getAbsolutePath()) ;
         img = new FastBitmap(bm);
     }
     
     
     public void testThings() {
-        Threshold threshold;
-        threshold = new Threshold();
-        threshold.applyInPlace(img);
+    	Threshold threshold;
+    	threshold = new Threshold();
+    	threshold.applyInPlace(img);
 
     }
 
-    public Bitmap getBitmap(){
-        Bitmap bm = img.toBitmap();
-        return bm;
-    }
-//not needed
-    /*public Image getImage(){
-        Picture picture = new Picture();
-        Canvas canvas = picture.beginRecording(img.toBitmap().getWidth(), img.toBitmap().getHeight());
-        Image image = img;
+    public Bitmap getImage(){
+    	
+        return img.toBitmap();    
 
-    }*/
+    }
 
 
     // EASY FUNCTIONS WE NEED TO MAKE OR FIND:
@@ -103,8 +101,9 @@ public class Binarizer extends Activity{
         img = new File(path);
         return img;
     }*/
-    public File openImage(){
-        String path = getFilesDir() + File.separator + "res" +File.separator + "test.jpg";
+    private File openImage(){
+        String path = getFilesDir() + File.separator + "res" + File.separator 
+        							+ "drawable-hdpi" + File.separator + "test.jpg";
         File img = new File(path);
         return img;
     }

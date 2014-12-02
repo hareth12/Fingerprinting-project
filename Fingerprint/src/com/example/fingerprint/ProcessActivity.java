@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Gallery;
+import android.widget.ImageView;
 
 public class ProcessActivity extends Activity {
 
@@ -15,9 +16,12 @@ public class ProcessActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_process);
-        //Binarizer x = new Binarizer();
-        //ImageView IV = (ImageView) findViewById(R.id.imageView);
-
+		
+        //Create Binarizer x. Default constructor uses test.jpg in res.
+		Binarizer x = new Binarizer();
+		
+        //ImageView display = (ImageView) findViewById(R.id.imageView);
+        //display.setImageBitmap( x.getImage() ) ;
 
 	}
 
@@ -48,9 +52,4 @@ public class ProcessActivity extends Activity {
     public void binarizer(View view) {
         
     }
-    public void show_image(View view){
-        Intent intent = new Intent(this, Show_Image_Activity.class);
-        startActivity(intent);
-    }
-
 }
