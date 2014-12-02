@@ -49,7 +49,5 @@ public class ProcessActivity extends Activity {
 		startActivity(intent) ;
 		
 	}
-    public void binarizer(View view) {
-        
-    }
+
 }
