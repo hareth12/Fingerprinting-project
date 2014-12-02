@@ -148,7 +148,7 @@ public class CameraActivity extends Activity {
 	        try {
 	            FileOutputStream fos = new FileOutputStream(pictureFile);
 	            fos.write(data);
-	            fos.close();
+	            fos.close();   
 	        } catch (FileNotFoundException e) {
 	            Log.d(TAG, "File not found: " + e.getMessage());
 	        } catch (IOException e) {
@@ -198,7 +198,7 @@ public class CameraActivity extends Activity {
 	        return null;
 	    }*/
         File mediaFile;
-        //saving picture as "fingerprint.jpg"
+        //saving picture as "Fingerprint.jpg"
         if(type == MEDIA_TYPE_IMAGE){
             mediaFile = new File(mediaStorageDir.getPath()+File.separator+"Fingerprint.jpg");
         }

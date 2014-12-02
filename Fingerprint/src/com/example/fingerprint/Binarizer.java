@@ -9,6 +9,7 @@ import android.util.Log;
 import android.widget.ImageView;
 
 import java.io.File;
+import java.net.URI;
 
 import Catalano.Imaging.FastBitmap;
 import Catalano.Imaging.Filters.Threshold;
@@ -26,11 +27,11 @@ public class Binarizer extends Activity{
        
 
     public Binarizer(){
-    	Log.d("Binarizer", "Got to step 1") ;
-        File img_path;
-        img_path = openImage();
+        Log.d("Binarizer", "Got to step 1") ;
         Log.d("Binarizer", "Got to step 2") ;
-        Bitmap bm = BitmapFactory.decodeFile(img_path.getAbsolutePath()) ;
+        System.out.println(openImage());
+        Bitmap bm = BitmapFactory.decodeFile(openImage()) ;
+        Log.d("Binarizer", "Got to step 3") ;
         img = new FastBitmap(bm);
     }
     
@@ -91,16 +92,18 @@ public class Binarizer extends Activity{
 	% See also: RIDGEORIENT, RIDGEFREQ, RIDGEFILTER */
     
 
-// Different way of loading image
-    private File openImage(){
+// Different wa y of loading image
+    private String openImage(){
         String path;
-        File img, imgPath = new File(Environment.getExternalStoragePublicDirectory(
+        //File img;
+        File imgPath = new File(Environment.getExternalStoragePublicDirectory(
                 Environment.DIRECTORY_PICTURES), "Fingerprints");
 
         // open image (temporary way of opening image)
-        path = imgPath.toURI().toString() + File.separator + "fingerprint.jpg";
-        img = new File(path);
-        return img;
+        path = imgPath.getAbsolutePath().toString() + File.separator + "Fingerprint.jpg";
+        return path;
+        //img = new File(path);
+        //return img;
     }
     /*private File openImage(){
         String path = getFilesDir() + File.separator + "res" + File.separator 
