@@ -20,8 +20,8 @@ public class ProcessActivity extends Activity {
         //Create Binarizer x. Default constructor uses test.jpg in res.
 		Binarizer x = new Binarizer();
 		
-        ImageView display = (ImageView) findViewById(R.id.imageView);
-        display.setImageBitmap( x.getImage() ) ;
+        //ImageView display = (ImageView) findViewById(R.id.imageView);
+        //display.setImageBitmap( x.getImage() ) ;
 
 	}
 

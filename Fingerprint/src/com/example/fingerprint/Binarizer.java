@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.Image;
+import android.util.Log;
 import android.widget.ImageView;
 
 import java.io.File;
@@ -24,9 +25,10 @@ public class Binarizer extends Activity{
        
 
     public Binarizer(){
-
+    	Log.d("Binarizer", "Got to step 1") ;
         File img_path;
         img_path = openImage();
+        Log.d("Binarizer", "Got to step 2") ;
         Bitmap bm = BitmapFactory.decodeFile(img_path.getAbsolutePath()) ;
         img = new FastBitmap(bm);
     }
@@ -100,7 +102,8 @@ public class Binarizer extends Activity{
         return img;
     }*/
     private File openImage(){
-        String path = getFilesDir() + File.separator + "res" +File.separator + "test.jpg";
+        String path = getFilesDir() + File.separator + "res" + File.separator 
+        							+ "drawable-hdpi" + File.separator + "test.jpg";
         File img = new File(path);
         return img;
     }
