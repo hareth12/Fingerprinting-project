@@ -12,17 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fingerprinting-project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint.iml" afterPath="$PROJECT_DIR$/Fingerprint.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" afterPath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -2490,7 +2479,11 @@
       <created>1416369610940</created>
       <updated>1416369610940</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Kenny 11/18/14 23:00">
+      <created>1417552345608</created>
+      <updated>1417552345609</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
