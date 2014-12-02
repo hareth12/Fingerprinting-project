@@ -17,11 +17,6 @@ public class ProcessActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_process);
 		
-        //Create Binarizer x. Default constructor uses test.jpg in res.
-		Binarizer x = new Binarizer();
-		
-        //ImageView display = (ImageView) findViewById(R.id.imageView);
-        //display.setImageBitmap( x.getImage() ) ;
 
 	}
 
@@ -49,5 +44,13 @@ public class ProcessActivity extends Activity {
 		startActivity(intent) ;
 		
 	}
+
+    public void show_image(View view) {
+        //Create Binarizer x. Default constructor uses test.jpg in res.
+        Binarizer x = new Binarizer();
+        ImageView display = (ImageView) findViewById(R.id.imageview);
+        display.setImageBitmap(x.getBitmap());
+
+    }
 
 }
