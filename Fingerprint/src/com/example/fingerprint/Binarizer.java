@@ -60,10 +60,9 @@ public class Binarizer extends Activity{
     
     
     public void testThings() {
-    	//Bitmap.Config conf = Bitmap.Config.ARGB_8888;
+
+        //Bitmap.Config conf = Bitmap.Config.ARGB_8888;
         img.toGrayscale();
-        //cropDynamically();
-        Log.d("crop", "crop completed");
         /*SusanCornersDetector susanCornersDetector = new SusanCornersDetector(5,10);
         ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
         Bitmap temp = Bitmap.createBitmap(img.getWidth(), img.getHeight(), conf);
@@ -78,11 +77,28 @@ public class Binarizer extends Activity{
         //sobelEdgeDetector.applyInPlace(img);
         //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(150);
         //bradleyLocalThreshold.applyInPlace(img);
-        Threshold threshold = new Threshold(150);
-    	threshold.applyInPlace(img);
 
+        int i, j, xpix, ypix,  xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 4, ycells = 4, xcellsize = xmax/xcells, ycellsize = ymax / ycells;
+        Bitmap [][] arr = new Bitmap[xmax][ymax];
+        Bitmap newimg = Bitmap.createBitmap(img.toBitmap()), tempbm = null;
+        for (i = 0; i < xcells; i++) {
+            for (j = 0; j < ycells; j++) {
+                arr[i][j] = Bitmap.createBitmap(img.toBitmap(), i * xcellsize, j * ycellsize, xmax - i * xcellsize, ymax - j* ycellsize);
+                FastBitmap fbm = new FastBitmap(arr[i][j]);
+                Threshold threshold = new Threshold(150);
+                threshold.applyInPlace(fbm);
+                tempbm = fbm.toBitmap();
+                for (xpix = 0; xpix < tempbm.getWidth(); xpix++){
+                    for (ypix = 0; ypix < tempbm.getWidth(); ypix++){
+                        newimg.setPixel(i * xcellsize + xpix, j * ycellsize + ypix, tempbm.getPixel(xpix, ypix) );
+                    }
+                }
+
+
+            }
+
+        }
     }
-
     public Bitmap getBitmap(){
     	
         return img.toBitmap();    
