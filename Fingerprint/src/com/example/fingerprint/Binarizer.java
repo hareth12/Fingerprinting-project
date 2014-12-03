@@ -3,31 +3,19 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.os.Environment;
 import android.util.Log;
-import android.widget.ImageView;
 
 import java.io.File;
-import java.net.URI;
-import java.util.ArrayList;
 
-import Catalano.Core.IntPoint;
-import Catalano.Imaging.Concurrent.Filters.BradleyLocalThreshold;
-import Catalano.Imaging.Concurrent.Filters.SobelEdgeDetector;
-import Catalano.Imaging.Corners.SusanCornersDetector;
 import Catalano.Imaging.FastBitmap;
-import Catalano.Imaging.Filters.CannyEdgeDetector;
-import Catalano.Imaging.Filters.Crop;
-import Catalano.Imaging.Filters.HistogramEqualization;
-import Catalano.Imaging.Filters.Threshold;
+
 
 
 /**
  * Created by kenny on 11/12/14.
  */
 
-// Gribov was here!! 
 public class Binarizer extends Activity{
 
 
@@ -63,22 +51,35 @@ public class Binarizer extends Activity{
 
         //Bitmap.Config conf = Bitmap.Config.ARGB_8888;
         img.toGrayscale();
+        /*
+        FourierTransform ft = new FourierTransform(img);
+        ft.Forward();
+        FrequencyFilter ff = new FrequencyFilter(0,60);
+        ff.ApplyInPlace(ft);
+        ft.Backward();
+        img = ft.toFastBitmap();*/
+
         /*SusanCornersDetector susanCornersDetector = new SusanCornersDetector(5,10);
         ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
         Bitmap temp = Bitmap.createBitmap(img.getWidth(), img.getHeight(), conf);
         for(IntPoint p : list){
             img.setRGB(p,255,255,255);
         }*/
+
         //CannyEdgeDetector cannyEdgeDetector = new CannyEdgeDetector(10,20);
         //cannyEdgeDetector.applyInPlace(img);
+
         //HistogramEqualization histogramEqualization = new HistogramEqualization();
         //histogramEqualization.applyInPlace(img);
+
         //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
         //sobelEdgeDetector.applyInPlace(img);
+
         //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(150);
         //bradleyLocalThreshold.applyInPlace(img);
 
-        int i, j, xpix, ypix,  xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 4, ycells = 4, xcellsize = xmax/xcells, ycellsize = ymax / ycells;
+        //Threshold with divide and conquer iterative
+        /*int i, j, xpix, ypix,  xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 4, ycells = 4, xcellsize = xmax/xcells, ycellsize = ymax / ycells;
         Bitmap [][] arr = new Bitmap[xmax][ymax];
         Bitmap newimg = Bitmap.createBitmap(img.toBitmap()), tempbm = null;
         for (i = 0; i < xcells; i++) {
@@ -87,22 +88,27 @@ public class Binarizer extends Activity{
                 arr[i][j] = Bitmap.createBitmap(img.toBitmap(), i * xcellsize, j * ycellsize, xmax - i * xcellsize, ymax - j* ycellsize);
                 FastBitmap fbm = new FastBitmap(arr[i][j]);
                 fbm.toGrayscale();
-                Threshold threshold = new Threshold(150);
+                Log.d("binarizer", "got fbm in gray");
+                Threshold threshold = new Threshold(120);
                 threshold.applyInPlace(fbm);
+                Log.d("binarizer", "applied threshold");
                 tempbm = fbm.toBitmap();
-                for (xpix = 0; xpix < tempbm.getWidth(); xpix++){
-                    for (ypix = 0; ypix < tempbm.getWidth(); ypix++){
+                Log.d("binarizer", "entering for loop ");
+                /*for (xpix = 0; xpix < tempbm.getWidth(); xpix++){
+                    for (ypix = 0; ypix < tempbm.getHeight(); ypix++){
                         newimg.setPixel(i * xcellsize + xpix, j * ycellsize + ypix, tempbm.getPixel(xpix, ypix) );
+                        Log.d("binarizer", ""+xpix + ", " + ypix);
                     }
-                }
+
                 Log.d("binarizer", "compied bm");
 
 
             }
 
         }
+
         img.recycle();
-        img = new FastBitmap(newimg);
+        img = new FastBitmap(newimg);*/
     }
     public Bitmap getBitmap(){
     	

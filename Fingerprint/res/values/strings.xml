@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Fingerprint</string>
-    <string name="temp">You have successfully taken a picture. Please wait patiently for Gribov to program the rest of this app. Thanks! \n\n\n By the way, your finger is stored in ~/sdcard/Pictures/Fingerprint</string>
+    <string name="temp">You have successfully taken a picture. Please wait patiently for Gribov and Kenny to program the rest of this app. Thanks! \n\n\n By the way, your finger is stored in ~/sdcard/Pictures/Fingerprint</string>
     <string name="action_settings">Settings</string>
     <string name="scan">Scan Fingerprint</string>
     <string name="title_activity_scanner">Finger Scanner</string>
