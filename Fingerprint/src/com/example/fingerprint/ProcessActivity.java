@@ -2,6 +2,8 @@ package com.example.fingerprint;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -60,8 +62,10 @@ public class ProcessActivity extends Activity {
     }
     @Override
     public void onBackPressed(){
-        Intent intent = new Intent(ProcessActivity.this, ProcessActivity.class) ;
-        startActivity(intent) ;
+        Bitmap.Config config = Bitmap.Config.ARGB_8888;
+        Bitmap bm = Bitmap.createBitmap(1,1,config);
+        ImageView display = (ImageView) findViewById(R.id.imageview);
+        display.setImageBitmap(bm);
     }
 
 }

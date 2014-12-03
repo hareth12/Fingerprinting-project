@@ -14,6 +14,7 @@ import java.net.URI;
 import Catalano.Imaging.Concurrent.Filters.BradleyLocalThreshold;
 import Catalano.Imaging.Concurrent.Filters.SobelEdgeDetector;
 import Catalano.Imaging.FastBitmap;
+import Catalano.Imaging.Filters.CannyEdgeDetector;
 import Catalano.Imaging.Filters.HistogramEqualization;
 import Catalano.Imaging.Filters.Threshold;
 
@@ -34,15 +35,17 @@ public class Binarizer extends Activity{
         Log.d("Binarizer", "Got to step 2") ;
         System.out.println(openImage());
         Bitmap bm = BitmapFactory.decodeFile(openImage()) ;
-        Log.d("Binarizer", "Got to step 3") ;
+        Log.d("Binarizer", "Got to step 3");
         img = new FastBitmap(bm);
     }
     
     
     public void testThings() {
     	img.toGrayscale();
-        HistogramEqualization histogramEqualization = new HistogramEqualization();
-        histogramEqualization.applyInPlace(img);
+        CannyEdgeDetector cannyEdgeDetector = new CannyEdgeDetector(10,20);
+        cannyEdgeDetector.applyInPlace(img);
+        //HistogramEqualization histogramEqualization = new HistogramEqualization();
+        //histogramEqualization.applyInPlace(img);
         //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
         //sobelEdgeDetector.applyInPlace(img);
         //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(150);
