@@ -22,5 +22,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="Show_image">Show Processed Image</string>
     <string name="bypass_scan">Bypass Fingerprint Scan</string>
+    <string name="crop_image">Crop Image</string>
 
 </resources>

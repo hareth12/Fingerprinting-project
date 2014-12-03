@@ -42,6 +42,15 @@
         android:text="@string/Show_image"
         android:onClick="show_image"
         android:id="@+id/Show_image_button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crop_image"
+        android:id="@+id/Crop_image_button"
+        android:onClick="crop_image"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Show_image_button"
+        android:layout_toEndOf="@+id/Show_image_button" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

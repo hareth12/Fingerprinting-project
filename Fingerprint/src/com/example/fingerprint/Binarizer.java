@@ -32,34 +32,35 @@ public class Binarizer extends Activity{
 
 
     FastBitmap img;
-       
+    Bitmap bm;
 
     public Binarizer(){
         Log.d("Binarizer", "Got to step 1") ;
         Log.d("Binarizer", "Got to step 2") ;
         System.out.println(openImage());
-        Bitmap bm = BitmapFactory.decodeFile(openImage()) ;
+        bm = BitmapFactory.decodeFile(openImage()) ;
         Log.d("Binarizer", "Got to step 3");
+
         img = new FastBitmap(bm);
-        //cropDynamically();
+
         Log.d("openImage", "get here in openImage");
     }
 
     public void cropDynamically(){
-        int startx = img.getWidth() / 3;
-        int starty = img.getHeight() / 3;
-        int endx = img.getWidth() - startx;
-        int endy = img.getHeight() - starty;
+        int startx = bm.getWidth() / 3;
+        int starty = bm.getHeight() / 3;
+        int endx = bm.getWidth() - startx;
+        int endy = bm.getHeight() - starty;
         System.out.println(""+startx + ", " + starty+ ", " + endx+ ", " + endy);
         Log.d("crop", "initialized vars");
-        Crop crop = new Crop(startx, starty, endx, endy);
-        Log.d("crop", "crop constructed");
-        crop.ApplyInPlace(img);
+        Bitmap croppedBm = Bitmap.createBitmap(bm, startx, starty, endx, endy);
+        Log.d("crop", "crop applied");
+        img = new FastBitmap(croppedBm);
     }
     
     
     public void testThings() {
-    	Bitmap.Config conf = Bitmap.Config.ARGB_8888;
+    	//Bitmap.Config conf = Bitmap.Config.ARGB_8888;
         img.toGrayscale();
         //cropDynamically();
         Log.d("crop", "crop completed");

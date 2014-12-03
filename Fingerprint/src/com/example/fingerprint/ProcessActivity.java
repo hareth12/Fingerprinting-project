@@ -61,6 +61,9 @@ public class ProcessActivity extends Activity {
         display.setImageBitmap(img.getBitmap());
         imgViewOpen = true;
     }
+    public void crop_image(View view){
+        img.cropDynamically();
+    }
     @Override
     public void onBackPressed() {
         if (imgViewOpen){

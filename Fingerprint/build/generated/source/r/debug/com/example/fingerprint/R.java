@@ -942,6 +942,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int Binarize_button=0x7f070045;
+        public static final int Crop_image_button=0x7f070047;
         public static final int Show_image_button=0x7f070046;
         public static final int action_bar=0x7f07001c;
         public static final int action_bar_activity_content=0x7f070014;
@@ -954,7 +955,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f070048;
+        public static final int action_settings=0x7f070049;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int again=0x7f070044;
         public static final int always=0x7f07000f;
@@ -981,7 +982,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f07000e;
         public static final int image=0x7f070027;
         public static final int imageView1=0x7f07003d;
-        public static final int imageview=0x7f070047;
+        public static final int imageview=0x7f070048;
         public static final int listMode=0x7f070001;
         public static final int list_item=0x7f070029;
         public static final int middle=0x7f07000b;
@@ -1076,21 +1077,22 @@ containing a value of this type.
         public static final int app_name=0x7f0a0010;
         public static final int bypass_scan=0x7f0a0011;
         public static final int capture=0x7f0a0012;
-        public static final int dummy_button=0x7f0a0013;
-        public static final int dummy_content=0x7f0a0014;
-        public static final int fingeroverlay=0x7f0a0015;
-        public static final int flash=0x7f0a0016;
-        public static final int focus=0x7f0a0017;
-        public static final int hello_world=0x7f0a0018;
-        public static final int scan=0x7f0a0019;
-        public static final int scan_again=0x7f0a001a;
-        public static final int temp=0x7f0a001b;
-        public static final int title_activity_actvity_binarizer=0x7f0a001c;
-        public static final int title_activity_camera=0x7f0a001d;
-        public static final int title_activity_camera_preview=0x7f0a001e;
-        public static final int title_activity_process=0x7f0a001f;
-        public static final int title_activity_scanner=0x7f0a0020;
-        public static final int title_activity_show__image_=0x7f0a0021;
+        public static final int crop_image=0x7f0a0013;
+        public static final int dummy_button=0x7f0a0014;
+        public static final int dummy_content=0x7f0a0015;
+        public static final int fingeroverlay=0x7f0a0016;
+        public static final int flash=0x7f0a0017;
+        public static final int focus=0x7f0a0018;
+        public static final int hello_world=0x7f0a0019;
+        public static final int scan=0x7f0a001a;
+        public static final int scan_again=0x7f0a001b;
+        public static final int temp=0x7f0a001c;
+        public static final int title_activity_actvity_binarizer=0x7f0a001d;
+        public static final int title_activity_camera=0x7f0a001e;
+        public static final int title_activity_camera_preview=0x7f0a001f;
+        public static final int title_activity_process=0x7f0a0020;
+        public static final int title_activity_scanner=0x7f0a0021;
+        public static final int title_activity_show__image_=0x7f0a0022;
     }
     public static final class style {
         /** 
