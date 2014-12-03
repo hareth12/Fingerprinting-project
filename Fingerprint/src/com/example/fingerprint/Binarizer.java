@@ -11,7 +11,10 @@ import android.widget.ImageView;
 import java.io.File;
 import java.net.URI;
 
+import Catalano.Imaging.Concurrent.Filters.BradleyLocalThreshold;
+import Catalano.Imaging.Concurrent.Filters.SobelEdgeDetector;
 import Catalano.Imaging.FastBitmap;
+import Catalano.Imaging.Filters.HistogramEqualization;
 import Catalano.Imaging.Filters.Threshold;
 
 
@@ -38,8 +41,14 @@ public class Binarizer extends Activity{
     
     public void testThings() {
     	img.toGrayscale();
-        Threshold threshold = new Threshold(120);
-    	threshold.applyInPlace(img);
+        HistogramEqualization histogramEqualization = new HistogramEqualization();
+        histogramEqualization.applyInPlace(img);
+        //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
+        //sobelEdgeDetector.applyInPlace(img);
+        //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(150);
+        //bradleyLocalThreshold.applyInPlace(img);
+        //Threshold threshold = new Threshold(120);
+    	//threshold.applyInPlace(img);
 
     }
 

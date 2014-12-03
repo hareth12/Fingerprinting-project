@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -1143,20 +1142,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Binarizer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Binarizer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1962">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.2020202" vertical-offset="378" max-vertical-offset="2070">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProcessActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10583153" vertical-offset="563" max-vertical-offset="1134">
+            <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1134">
               <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding />
             </state>
@@ -2227,8 +2226,8 @@
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/CameraActivity.java" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Show_Image_Activity.java" />
         <option value="$PROJECT_DIR$/Fingerprint/res/layout/activity_process.xml" />
-        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
         <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java" />
+        <option value="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
       </list>
     </option>
   </component>
@@ -2380,7 +2379,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestingShit" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0030e0046192661b" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="9ae29a9d" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -2699,7 +2698,11 @@
       <created>1417563111109</created>
       <updated>1417563111109</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="I got the image black and white">
+      <created>1417569574921</created>
+      <updated>1417569574921</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2713,11 +2716,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47816828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.94934875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47816828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.94880176" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5010846" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24813631" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4992764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="683" y="414" width="74" height="38" />
@@ -2727,7 +2730,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2539936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2759,7 +2762,8 @@
     <MESSAGE value="fixed problem with file path, was an issue inside of the file path returned by openImage():&#10;it originally had  &quot;file://&quot; at begining of string of the file path&#10;used path = imgPath.getAbsolutePath() to solve this problem." />
     <MESSAGE value="got IMAGEVIEW WORKING!!!!!" />
     <MESSAGE value="I got IMAGEVIEW WORKING!!!!! again..." />
-    <option name="LAST_COMMIT_MESSAGE" value="I got IMAGEVIEW WORKING!!!!! again..." />
+    <MESSAGE value="I got the image black and white" />
+    <option name="LAST_COMMIT_MESSAGE" value="I got the image black and white" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3127,14 +3131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1962">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/CameraPreview.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="771" max-vertical-offset="1422">
@@ -3161,8 +3157,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/ProcessActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10583153" vertical-offset="563" max-vertical-offset="1134">
+        <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1134">
           <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2020202" vertical-offset="378" max-vertical-offset="2070">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding />
         </state>
       </provider>
