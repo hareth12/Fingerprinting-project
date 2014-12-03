@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.Gallery;
 import android.widget.ImageView;
 
 public class ProcessActivity extends Activity {
+    Binarizer img = new Binarizer();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -45,12 +47,21 @@ public class ProcessActivity extends Activity {
 		
 	}
 
+    public void binarizer(View view) {
+        Log.d("binarizer", "entering test things");
+        img.testThings();
+        Log.d("binarizer", "got past test things");
+    }
+
     public void show_image(View view) {
         //Create Binarizer x. Default constructor uses test.jpg in res.
-        Binarizer x = new Binarizer();
         ImageView display = (ImageView) findViewById(R.id.imageview);
-        display.setImageBitmap(x.getBitmap());
-
+        display.setImageBitmap(img.getBitmap());
+    }
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(ProcessActivity.this, ProcessActivity.class) ;
+        startActivity(intent) ;
     }
 
 }

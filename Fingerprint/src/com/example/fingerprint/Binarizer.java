@@ -37,8 +37,8 @@ public class Binarizer extends Activity{
     
     
     public void testThings() {
-    	Threshold threshold;
-    	threshold = new Threshold();
+    	img.toGrayscale();
+        Threshold threshold = new Threshold(120);
     	threshold.applyInPlace(img);
 
     }
