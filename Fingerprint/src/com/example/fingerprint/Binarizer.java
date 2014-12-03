@@ -83,8 +83,10 @@ public class Binarizer extends Activity{
         Bitmap newimg = Bitmap.createBitmap(img.toBitmap()), tempbm = null;
         for (i = 0; i < xcells; i++) {
             for (j = 0; j < ycells; j++) {
+                Log.d("binarizer", "" + i + ", " + j);
                 arr[i][j] = Bitmap.createBitmap(img.toBitmap(), i * xcellsize, j * ycellsize, xmax - i * xcellsize, ymax - j* ycellsize);
                 FastBitmap fbm = new FastBitmap(arr[i][j]);
+                fbm.toGrayscale();
                 Threshold threshold = new Threshold(150);
                 threshold.applyInPlace(fbm);
                 tempbm = fbm.toBitmap();
@@ -93,11 +95,14 @@ public class Binarizer extends Activity{
                         newimg.setPixel(i * xcellsize + xpix, j * ycellsize + ypix, tempbm.getPixel(xpix, ypix) );
                     }
                 }
+                Log.d("binarizer", "compied bm");
 
 
             }
 
         }
+        img.recycle();
+        img = new FastBitmap(newimg);
     }
     public Bitmap getBitmap(){
     	
