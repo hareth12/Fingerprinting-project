@@ -18,4 +18,11 @@
         android:text="@string/scan"
         android:onClick="scanFinger" />
 
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/button2"
+         android:text="@string/bypass_scan"
+         android:onClick="bypass_scan"/>
+
 </RelativeLayout>

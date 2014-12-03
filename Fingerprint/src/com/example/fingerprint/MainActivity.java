@@ -40,5 +40,10 @@ public class MainActivity extends ActionBarActivity {
 		
 	}
 
+    public void bypass_scan(View view){
+        Intent intent = new Intent(this, ProcessActivity.class);
+        startActivity(intent);
+    }
+
 
 }

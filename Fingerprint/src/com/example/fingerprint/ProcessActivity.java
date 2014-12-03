@@ -15,7 +15,7 @@ import android.widget.ImageView;
 
 public class ProcessActivity extends Activity {
     Binarizer img = new Binarizer();
-
+    boolean imgViewOpen = false;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -59,13 +59,20 @@ public class ProcessActivity extends Activity {
         //Create Binarizer x. Default constructor uses test.jpg in res.
         ImageView display = (ImageView) findViewById(R.id.imageview);
         display.setImageBitmap(img.getBitmap());
+        imgViewOpen = true;
     }
     @Override
-    public void onBackPressed(){
-        Bitmap.Config config = Bitmap.Config.ARGB_8888;
-        Bitmap bm = Bitmap.createBitmap(1,1,config);
-        ImageView display = (ImageView) findViewById(R.id.imageview);
-        display.setImageBitmap(bm);
+    public void onBackPressed() {
+        if (imgViewOpen){
+            Bitmap.Config config = Bitmap.Config.ARGB_8888;
+            Bitmap bm = Bitmap.createBitmap(1, 1, config);
+            ImageView display = (ImageView) findViewById(R.id.imageview);
+            display.setImageBitmap(bm);
+            imgViewOpen = false;
+        }
+        else{
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
     }
-
 }
