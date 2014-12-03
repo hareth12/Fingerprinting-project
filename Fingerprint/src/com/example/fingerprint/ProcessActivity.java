@@ -74,6 +74,8 @@ public class ProcessActivity extends Activity {
             imgViewOpen = false;
         }
         else{
+            img.img.recycle();
+            img.bm.recycle();
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }

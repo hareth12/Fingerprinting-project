@@ -47,11 +47,11 @@ public class Binarizer extends Activity{
     }
 
     public void cropDynamically(){
-        int startx = bm.getWidth() / 3;
-        int starty = bm.getHeight() / 3;
-        int endx = bm.getWidth() - startx;
-        int endy = bm.getHeight() - starty;
-        System.out.println(""+startx + ", " + starty+ ", " + endx+ ", " + endy);
+        int startx = bm.getWidth() / 4;
+        int starty = bm.getHeight() / 4;
+        int endx = bm.getWidth() - 2 * startx;
+        int endy = bm.getHeight() - 2 * starty;
+        System.out.println(""+bm.getWidth()+ ", " + bm.getHeight() + ", "+ startx + ", " + starty+ ", " + endx+ ", " + endy);
         Log.d("crop", "initialized vars");
         Bitmap croppedBm = Bitmap.createBitmap(bm, startx, starty, endx, endy);
         Log.d("crop", "crop applied");
@@ -78,8 +78,8 @@ public class Binarizer extends Activity{
         //sobelEdgeDetector.applyInPlace(img);
         //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(150);
         //bradleyLocalThreshold.applyInPlace(img);
-        //Threshold threshold = new Threshold(120);
-    	//threshold.applyInPlace(img);
+        Threshold threshold = new Threshold(150);
+    	threshold.applyInPlace(img);
 
     }
 
