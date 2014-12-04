@@ -16,11 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f10c887-bd27-48d6-869f-a869ab29757f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" afterPath="$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fingerprint.iml" afterPath="$PROJECT_DIR$/Fingerprint.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" afterPath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fingerprint.iws" />
@@ -1153,8 +1148,8 @@
       <file leaf-file-name="Binarizer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86491555" vertical-offset="979" max-vertical-offset="3690">
-              <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.86491555" vertical-offset="1429" max-vertical-offset="4140">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2182,7 +2177,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../screenshots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../screenshots/Fingerprint" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0030e0046192661b" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
@@ -2531,7 +2526,11 @@
       <created>1417647031080</created>
       <updated>1417647031080</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="working on fourier and other things">
+      <created>1417715400724</created>
+      <updated>1417715400724</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2550,7 +2549,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3768116" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.5026178" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24637681" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4992764" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" x="-1" y="25" width="1922" height="1059" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4992764" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" x="0" y="36" width="1920" height="1033" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.4989154" order="1" side_tool="false" content_ui="tabs" />
@@ -3001,8 +3000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86491555" vertical-offset="979" max-vertical-offset="3690">
-          <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.86491555" vertical-offset="1429" max-vertical-offset="4140">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

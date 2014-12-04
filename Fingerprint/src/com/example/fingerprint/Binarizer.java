@@ -3,6 +3,7 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.os.Environment;
 import android.util.Log;
 
@@ -13,6 +14,7 @@ import Catalano.Core.IntPoint;
 import Catalano.Imaging.Corners.SusanCornersDetector;
 import Catalano.Imaging.FastBitmap;
 import Catalano.Imaging.Filters.BradleyLocalThreshold;
+import Catalano.Imaging.Filters.BrightnessCorrection;
 import Catalano.Imaging.Filters.FourierTransform;
 import Catalano.Imaging.Filters.FrequencyFilter;
 import Catalano.Imaging.Filters.HistogramEqualization;
@@ -64,8 +66,25 @@ public class Binarizer extends Activity{
         SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
         ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
         for(IntPoint p : list){
-            img.setRGB(p,0,0,0);
+            img.setRGB(p, 0, 0, 0);
         }
+
+        Bitmap bm = img.toBitmap();
+
+        int [] allpixels = new int [ bm.getHeight()*bm.getWidth()];
+
+        bm.getPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
+
+        for(int i =0; i<bm.getHeight()*bm.getWidth();i++){
+
+            if( allpixels[i] == Color.BLACK)
+                allpixels[i] = Color.WHITE;
+        }
+
+        bm.setPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
+
+        BrightnessCorrection brightnessCorrection = new BrightnessCorrection(50);
+        brightnessCorrection.applyInPlace(img);
 
         HistogramEqualization histogramEqualization = new HistogramEqualization();
         histogramEqualization.applyInPlace(img);
@@ -78,11 +97,14 @@ public class Binarizer extends Activity{
         Log.d("testThings", "created ft");
         ft.Forward();
         Log.d("testThings", "went forward in ft");
-        FrequencyFilter ff = new FrequencyFilter(2, 40);
+        FrequencyFilter ff = new FrequencyFilter(35, 75);
         ff.ApplyInPlace(ft);
         ft.Backward();
         Log.d("testThings", "went backward in ft");
         img = ft.toFastBitmap();
+
+        //this hist eq doesnt work here
+        //histogramEqualization.applyInPlace(img);
 
 
 
@@ -94,8 +116,11 @@ public class Binarizer extends Activity{
         //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
         //sobelEdgeDetector.applyInPlace(img);
 
-        BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
-        bradleyLocalThreshold.applyInPlace(img);
+        //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
+        //bradleyLocalThreshold.applyInPlace(img);
+
+        Threshold threshold = new Threshold(15);
+        threshold.applyInPlace(img);
 
         //Threshold with divide and conquer iterative
         /*int i, j, xpix, ypix, xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 2, ycells = 2, xcellsize = xmax / xcells, ycellsize = ymax / ycells;
