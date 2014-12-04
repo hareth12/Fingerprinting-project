@@ -7,10 +7,15 @@ import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
+import java.util.ArrayList;
 
+import Catalano.Core.IntPoint;
+import Catalano.Imaging.Corners.SusanCornersDetector;
 import Catalano.Imaging.FastBitmap;
+import Catalano.Imaging.Filters.BradleyLocalThreshold;
 import Catalano.Imaging.Filters.FourierTransform;
 import Catalano.Imaging.Filters.FrequencyFilter;
+import Catalano.Imaging.Filters.HistogramEqualization;
 import Catalano.Imaging.Filters.Threshold;
 
 
@@ -56,41 +61,44 @@ public class Binarizer extends Activity{
     
     public void testThings() {
 
-        //Bitmap.Config conf = Bitmap.Config.ARGB_8888;
+        SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
+        ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
+        for(IntPoint p : list){
+            img.setRGB(p,0,0,0);
+        }
+
+        HistogramEqualization histogramEqualization = new HistogramEqualization();
+        histogramEqualization.applyInPlace(img);
         img.toGrayscale();
+
+
 
         Log.d("testThings", "img to gray");
         FourierTransform ft = new FourierTransform(img);
         Log.d("testThings", "created ft");
         ft.Forward();
         Log.d("testThings", "went forward in ft");
-        FrequencyFilter ff = new FrequencyFilter(0, 60);
+        FrequencyFilter ff = new FrequencyFilter(2, 40);
         ff.ApplyInPlace(ft);
         ft.Backward();
         Log.d("testThings", "went backward in ft");
         img = ft.toFastBitmap();
 
-        /*SusanCornersDetector susanCornersDetector = new SusanCornersDetector(5,10);
-        ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
-        Bitmap temp = Bitmap.createBitmap(img.getWidth(), img.getHeight(), conf);
-        for(IntPoint p : list){
-            img.setRGB(p,255,255,255);
-        }*/
+
 
         //CannyEdgeDetector cannyEdgeDetector = new CannyEdgeDetector(10,20);
         //cannyEdgeDetector.applyInPlace(img);
 
-        //HistogramEqualization histogramEqualization = new HistogramEqualization();
-        //histogramEqualization.applyInPlace(img);
+
 
         //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
         //sobelEdgeDetector.applyInPlace(img);
 
-        //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
-        //bradleyLocalThreshold.applyInPlace(img);
+        BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
+        bradleyLocalThreshold.applyInPlace(img);
 
         //Threshold with divide and conquer iterative
-        int i, j, xpix, ypix, xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 10, ycells = 10, xcellsize = xmax / xcells, ycellsize = ymax / ycells;
+        /*int i, j, xpix, ypix, xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 2, ycells = 2, xcellsize = xmax / xcells, ycellsize = ymax / ycells;
         Bitmap[][] arr = new Bitmap[xmax][ymax];
         Bitmap newimg = Bitmap.createBitmap(img.toBitmap()), tempbm = null;
         for (i = 0; i < xcells; i++) {
@@ -99,7 +107,7 @@ public class Binarizer extends Activity{
                 FastBitmap fbm = new FastBitmap(arr[i][j]);
                 fbm.toGrayscale();
                 Log.d("binarizer", "got fbm in gray");
-                Threshold threshold = new Threshold(40);
+                Threshold threshold = new Threshold(30);
                 threshold.applyInPlace(fbm);
                 Log.d("binarizer", "applied threshold");
                 tempbm = fbm.toBitmap();
@@ -115,7 +123,7 @@ public class Binarizer extends Activity{
             }
         }
         img.recycle();
-        img = new FastBitmap(newimg);
+        img = new FastBitmap(newimg);*/
     }
 
     public Bitmap getBitmap(){
