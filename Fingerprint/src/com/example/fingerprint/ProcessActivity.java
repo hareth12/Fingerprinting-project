@@ -3,14 +3,11 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Gallery;
 import android.widget.ImageView;
 
 public class ProcessActivity extends Activity {
@@ -75,7 +72,6 @@ public class ProcessActivity extends Activity {
         }
         else{
             img.img.recycle();
-            img.bm.recycle();
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
