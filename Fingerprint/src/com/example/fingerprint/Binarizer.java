@@ -18,7 +18,7 @@ import Catalano.Imaging.Filters.BrightnessCorrection;
 import Catalano.Imaging.Filters.FourierTransform;
 import Catalano.Imaging.Filters.FrequencyFilter;
 import Catalano.Imaging.Filters.HistogramEqualization;
-import Catalano.Imaging.Filters.Threshold;
+import Catalano.Imaging.Filters.Sharpen;
 
 
 /**
@@ -65,19 +65,19 @@ public class Binarizer extends Activity{
 
         SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
         ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
-        for(IntPoint p : list){
+        for (IntPoint p : list) {
             img.setRGB(p, 0, 0, 0);
         }
 
         Bitmap bm = img.toBitmap();
 
-        int [] allpixels = new int [ bm.getHeight()*bm.getWidth()];
+        int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
 
         bm.getPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
 
-        for(int i =0; i<bm.getHeight()*bm.getWidth();i++){
+        for (int i = 0; i < bm.getHeight() * bm.getWidth(); i++) {
 
-            if( allpixels[i] == Color.BLACK)
+            if (allpixels[i] == Color.BLACK)
                 allpixels[i] = Color.WHITE;
         }
 
@@ -91,7 +91,6 @@ public class Binarizer extends Activity{
         img.toGrayscale();
 
 
-
         Log.d("testThings", "img to gray");
         FourierTransform ft = new FourierTransform(img);
         Log.d("testThings", "created ft");
@@ -103,26 +102,50 @@ public class Binarizer extends Activity{
         Log.d("testThings", "went backward in ft");
         img = ft.toFastBitmap();
 
+
+
         //this hist eq doesnt work here
         //histogramEqualization.applyInPlace(img);
-
 
 
         //CannyEdgeDetector cannyEdgeDetector = new CannyEdgeDetector(10,20);
         //cannyEdgeDetector.applyInPlace(img);
 
+        FastBitmap temp;
+        int i, j, k, l, cellsize = 3;
+        for (i = 0; i < img.getWidth() / cellsize - 1; i++) {
+            Log.d("testThings", "i = " + i);
+            for (j = 0; j < img.getHeight() / cellsize - 1; i++) {
+                temp = new FastBitmap(cellsize, cellsize);
+                Log.d("testThings", "j = " + j);
+                for (k = 0; k < cellsize; k++) {
+                    Log.d("testThings", "k = " + k);
+                    for (l = 0; l < cellsize; l++) {
+                        temp.setRGB(k, l, img.getRGB(i * cellsize + k, j * cellsize + l));
+                        Sharpen sharpen = new Sharpen();
+                        sharpen.applyInPlace(temp);
+                        Log.d("testThings", "i = " + i + ", j = " + j + ", k = " + k + ", l = " + l + ",  at pixel " + i * cellsize + "x" +j*cellsize);
+                        img.setRGB(i * cellsize + k, j * cellsize + l, temp.getRGB(k, l));
+                        Log.d("testThings", "cycled");
+                    }
+                }
+                temp.recycle();
+                Log.d("testThings", "recycled");
+            }
+        }
+
+            //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
+            //sobelEdgeDetector.applyInPlace(img);
 
 
-        //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
-        //sobelEdgeDetector.applyInPlace(img);
+            BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(160);
+            bradleyLocalThreshold.applyInPlace(img);
 
-        //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
-        //bradleyLocalThreshold.applyInPlace(img);
+            //Threshold threshold = new Threshold(15);
+            //threshold.applyInPlace(img);
 
-        Threshold threshold = new Threshold(15);
-        threshold.applyInPlace(img);
 
-        //Threshold with divide and conquer iterative
+            //Threshold with divide and conquer iterative
         /*int i, j, xpix, ypix, xmax = img.toBitmap().getWidth(), ymax = img.toBitmap().getHeight(), xcells = 2, ycells = 2, xcellsize = xmax / xcells, ycellsize = ymax / ycells;
         Bitmap[][] arr = new Bitmap[xmax][ymax];
         Bitmap newimg = Bitmap.createBitmap(img.toBitmap()), tempbm = null;
