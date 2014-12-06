@@ -3,21 +3,18 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
-import java.util.ArrayList;
 
-import Catalano.Core.IntPoint;
-import Catalano.Imaging.Corners.SusanCornersDetector;
 import Catalano.Imaging.FastBitmap;
-import Catalano.Imaging.Filters.BradleyLocalThreshold;
 import Catalano.Imaging.Filters.BrightnessCorrection;
+import Catalano.Imaging.Filters.ConservativeSmoothing;
 import Catalano.Imaging.Filters.FourierTransform;
 import Catalano.Imaging.Filters.FrequencyFilter;
 import Catalano.Imaging.Filters.HistogramEqualization;
+import Catalano.Imaging.Filters.Invert;
 import Catalano.Imaging.Filters.Sharpen;
 import Catalano.Imaging.Filters.Threshold;
 
@@ -26,17 +23,16 @@ import Catalano.Imaging.Filters.Threshold;
  * Created by kenny on 11/12/14.
  */
 
-public class Binarizer extends Activity{
+public class Binarizer extends Activity {
 
 
     FastBitmap img;
 
-
-    public Binarizer(){
+    public Binarizer() {
         //Log.d("Binarizer", "Got to step 1") ;
         //Log.d("Binarizer", "Got to step 2") ;
         //System.out.println(openImage());
-        Bitmap bm = BitmapFactory.decodeFile(openImage()) ;
+        Bitmap bm = BitmapFactory.decodeFile(openImage());
         //Log.d("Binarizer", "Got to step 3");
 
         img = new FastBitmap(bm);
@@ -45,13 +41,13 @@ public class Binarizer extends Activity{
         Log.d("openImage", "get here in openImage");
     }
 
-    public void cropDynamically(){
+    public void cropDynamically() {
         Bitmap bm = img.toBitmap();
         int startx = bm.getWidth() / 4;
         int starty = bm.getHeight() / 4;
         int endx = bm.getWidth() - 2 * startx;
         int endy = bm.getHeight() - 2 * starty;
-        System.out.println(""+bm.getWidth()+ ", " + bm.getHeight() + ", "+ startx + ", " + starty+ ", " + endx+ ", " + endy);
+        System.out.println("" + bm.getWidth() + ", " + bm.getHeight() + ", " + startx + ", " + starty + ", " + endx + ", " + endy);
         Log.d("crop", "initialized vars");
         Bitmap croppedBm = Bitmap.createBitmap(bm, startx, starty, endx, endy);
         Log.d("crop", "crop applied");
@@ -59,20 +55,20 @@ public class Binarizer extends Activity{
         Log.d("crop", "bitmap scaled");
         img = new FastBitmap(scaledBm);
         bm.recycle();
-}
-    
-    
+    }
+
+
     public void testThings() {
-/* THIS WORKS
-        SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
+//THIS WORKS
+        /*SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
         ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
         for (IntPoint p : list) {
             img.setRGB(p, 0, 0, 0);
-        }
+        }*/
 
         Bitmap bm = img.toBitmap();
 
-        int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
+        /*int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
 
         bm.getPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
 
@@ -83,7 +79,7 @@ public class Binarizer extends Activity{
         }
 
         bm.setPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
-
+*/
         BrightnessCorrection brightnessCorrection = new BrightnessCorrection(50);
         brightnessCorrection.applyInPlace(img);
 
@@ -97,14 +93,16 @@ public class Binarizer extends Activity{
         Log.d("testThings", "created ft");
         ft.Forward();
         Log.d("testThings", "went forward in ft");
-        FrequencyFilter ff = new FrequencyFilter(35, 75);
+        FrequencyFilter ff = new FrequencyFilter(30, 75);
         ff.ApplyInPlace(ft);
         ft.Backward();
         Log.d("testThings", "went backward in ft");
-        img = ft.toFastBitmap();*/
-
-        divideAndConquer(0, 0, 4);
-
+        img = ft.toFastBitmap();
+        divideAndConquer(0, 0, 50);
+        Threshold threshold = new Threshold(15);
+        threshold.applyInPlace(img);
+        Invert invert = new Invert();
+        invert.applyInPlace(img);
 
         //this hist eq doesnt work here
         //histogramEqualization.applyInPlace(img);
@@ -142,20 +140,18 @@ public class Binarizer extends Activity{
             }
         }*/
 
-            //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
-            //sobelEdgeDetector.applyInPlace(img);
+        //SobelEdgeDetector sobelEdgeDetector = new SobelEdgeDetector();
+        //sobelEdgeDetector.applyInPlace(img);
 
 
-            //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(160);
-            //bradleyLocalThreshold.applyInPlace(img);
+        //BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(160);
+        //bradleyLocalThreshold.applyInPlace(img);
 
-            //Threshold threshold = new Threshold(15);
-            //threshold.applyInPlace(img);
-
-
+        //Threshold threshold = new Threshold(15);
+        //threshold.applyInPlace(img);
 
 
-            //Threshold with divide and conquer iterative
+        //Threshold with divide and conquer iterative
         /*int i, j, xpix, ypix, xmax = img.getWidth(), ymax = img.getHeight(), xcells = 2, ycells = 2, xcellsize = xmax / xcells, ycellsize = ymax / ycells;
         FastBitmap[][] arr = new FastBitmap[xmax][ymax];
         for (i = 0; i < xcells; i++) {
@@ -190,85 +186,89 @@ public class Binarizer extends Activity{
         }*/
     }
 
-    //Recurssion dividing
-    public FastBitmap copyPixels(int tox, int toy, int fromx, int fromy, int startx, int starty, FastBitmap to, FastBitmap from){
-        int w, h;
-        if(from.getWidth() < to.getWidth()) {
-            w = from.getWidth();
-        }
-        else{
-            w = to.getWidth();
-        }
-        if(from.getHeight() < to.getHeight()) {
-            h = from.getWidth();
-        }
+    public FastBitmap copyPixels(FastBitmap src, int xstartsrc, int ystartsrc, int xendsrc, int yendsrc, int xpos, int ypos, FastBitmap dest, int xstartdest, int ystartdest, int xenddest, int yenddest) {
+        if (((ystartdest + ypos == yenddest) && (ystartsrc + ypos == yendsrc))&&((xstartdest +xpos == xenddest)&&(xstartsrc + xpos == xendsrc)))
+            return dest;
         else {
-            h = to.getWidth();
-        }
-        h--;
-        w--;
+            if (((xstartdest + xpos < xenddest) && (xstartsrc + xpos < xendsrc)) && ((ystartdest + ypos < yenddest) && (ystartsrc + ypos < yendsrc))) {
+                Log.d("copyPixels", "xstartsrc = " + xstartsrc + ", ystartsrc = " + ystartsrc + ", xendsrc = " + xendsrc + ", yendsrc = " + yendsrc + ", xpos = " + xpos + ", ypos = " + ypos + ", xstartdest = " + xstartdest + ", ystartdest = " + ystartdest + ", xenddest = " + xenddest + ", yenddest = " + yenddest);
+                dest.setRGB(xstartdest + xpos, ystartdest + ypos, src.getRGB(xstartsrc + xpos, ystartsrc + ypos));
 
-        Log.d("copyPixels", "w = " + w + ", h = " + h + ", startx = " +startx + " , starty = " + starty);
-        Log.d("copyPixels", "tox = " + tox + ", toy = " + toy+ ", fromx = " + fromx + ", fromy = " + fromy);
-
-        if(((fromx < w && tox - startx < w) || (fromx - startx < w && tox < w))  && ((fromy - starty < h || toy < h) && (fromy < h || toy - starty < h))){//problem is here
-            to.setRGB(tox, toy, from.getRGB(fromx, fromy));
-            Log.d("copyPixels", "copied pixel");
-            return copyPixels(tox + 1, toy, fromx + 1, fromy, startx, starty, to, from);
-        }
-        else if((((fromy - starty < h && toy < h)||(fromy < h && toy - starty < h)|| (fromy < h && toy < h)) && ((fromx == w && tox - startx == w)|| (fromx - startx == w && tox == w)))){
-            Log.d("copyPixels", "past if in else");
-            return copyPixels(tox - w, toy + 1, fromx - w, fromy + 1, startx, starty, to, from);
-        }
-        else {
-            Log.d("copyPixels", "past else if");
-            return to;
+                return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest);
+            } else {
+                if ((xstartdest + xpos >= xenddest) && (xstartsrc + xpos >= xendsrc)) {
+                    return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, 0, ypos + 1, dest, xstartdest, ystartdest, xenddest, yenddest);
+                } else {
+                    Log.d("copyPixels", "uhoh");
+                    return dest;
+                }
+            }
         }
     }
 
-    public void divideAndConquer(int x, int y, int cellsize){
-        if (x == img.getWidth() && y == img.getHeight())
+
+    public void divideAndConquer(int x, int y, int cellsize) {
+        Log.d("divideAndConquer", "x = " + x + ", y = " + y + ",w = " + img.getWidth() + ", h = " + img.getHeight());
+        if (x + cellsize >= img.getHeight() && y == img.getWidth())
             return;
 //It reaches 768 for x in this function, causin out of bounds error   
-        else if (x + cellsize < img.getWidth() && y < img.getHeight()) {
-            FastBitmap cell = new FastBitmap(cellsize, cellsize);
-            cell = copyPixels(0, 0, x, y, x, y, cell, img);
+        else {
+            if ((x + cellsize) < img.getHeight() && y < img.getWidth()) {
+                Log.d("divideAndConquer", "got in");
+                FastBitmap cell = new FastBitmap(cellsize, cellsize);
+                cell = copyPixels(img, x, y, x + cellsize, y + cellsize, 0, 0, cell, 0, 0, cellsize, cellsize);
             /*
             filters
             Sharpen sharpen = new Sharpen();
             sharpen.applyInPlace(cell);
-            */
-            cell.toGrayscale();
-            BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(160);
+
+            BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
             bradleyLocalThreshold.applyInPlace(cell);
-            Log.d("divideAndConquer", "filtered at x = " + x + ", y = " + y);
-            img = copyPixels(x, y, 0, 0, x, y, img, cell);
-            cell.recycle();
-            Log.d("divideAndConquer", "opening new div/conq");
-            divideAndConquer(x + cellsize, y, cellsize);
-            return;
-        } else if (y < img.getHeight()) {
-            divideAndConquer(0, y + cellsize, cellsize);
-            return;
-        } else {
-            Log.d("divideAndConquer", "uh oh");
-            return;
+            */
+                cell.toGrayscale();
+
+                Sharpen sharpen = new Sharpen();
+                sharpen.applyInPlace(cell);
+                //ACE... idk wtf it does yet
+                //AdaptiveContrastEnhancement ace = new AdaptiveContrastEnhancement(cellsize, .5, .5, 100, 100);
+                //ace.applyInPlace(cell);
+                ConservativeSmoothing cs = new ConservativeSmoothing();
+                cs.applyInPlace(cell);
+
+
+
+                Log.d("divideAndConquer", "filtered at x = " + x + ", y = " + y);
+                img = copyPixels(cell, 0, 0, cellsize, cellsize, 0, 0, img, x, y, x + cellsize, y + cellsize);
+                cell.recycle();
+                Log.d("divideAndConquer", "opening new div/conq");
+                divideAndConquer(x + cellsize, y, cellsize);
+                return;
+            } else {
+                if (y < img.getWidth()) {
+                    Log.d("divideAndConquer", "move down line");
+                    divideAndConquer(0, y + cellsize, cellsize);
+                    return;
+                } else {
+                    Log.d("divideAndConquer", "uh oh");
+                    return;
+                }
+            }
         }
     }
 
-    public Bitmap getBitmap(){
-    	
-        return img.toBitmap();    
+    public Bitmap getBitmap() {
+
+        return img.toBitmap();
 
     }
 
 
     // EASY FUNCTIONS WE NEED TO MAKE OR FIND:
-    
+
     //private void imrotate() {}
     //private void rgb2gray() {}
     //private void ridgeSegment() {} 
-    
+
     // THIS ONES GONNA BE A BITCH TO WRITE:
 	/*% RIDGESEGMENT - Normalises fingerprint image and segments ridge region
 	%
@@ -303,10 +303,10 @@ public class Binarizer extends Activity{
 	%   [normim, mask, maskind] = ridgesegment(im, 16, 0.1)
 	%
 	% See also: RIDGEORIENT, RIDGEFREQ, RIDGEFILTER */
-    
 
-// Different wa y of loading image
-    private String openImage(){
+
+    // Different wa y of loading image
+    private String openImage() {
         String path;
         //File img;
         File imgPath = new File(Environment.getExternalStoragePublicDirectory(
@@ -314,16 +314,58 @@ public class Binarizer extends Activity{
         Log.d("openImage", "get here in openImage");
 
         // open image (temporary way of opening image)
-        path = imgPath.getAbsolutePath().toString() + File.separator + "Fingerprint.jpg";
+        path = imgPath.getAbsolutePath().toString();
+
+        //to make this test with fingerprint image included in package
+        //createFingerPrintThere(path);
+        path = path + File.separator + "Fingerprint.jpg";
         return path;
         //img = new File(path);
         //return img;
     }
+}
+
+    /*
+    trying to include image in app so we can test on emus and what not easily
+    private void createFingerPrintThere(String path){
+        InputStream inputstream = null;
+        try {
+            inputstream = this.getResources().getAssets().open("test.jpg");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        File dest = new File(path);
+        Bitmap bitmap = BitmapFactory.decodeStream(inputstream);
+        try {
+            FileOutputStream out;
+            out = new FileOutputStream(dest);
+            bitmap.compress(Bitmap.CompressFormat.JPEG , 100, out);
+            out.flush();
+            out.close();
+        } catch (FileNotFoundException e) {
+
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+        /*
+        OutputStream stream = null;
+
+        try{
+            stream = new FileOutputStream(path);
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }*/
+
     /*private File openImage(){
         String path = getFilesDir() + File.separator + "res" + File.separator 
         							+ "drawable-hdpi" + File.separator + "test.jpg";
         File img = new File(path);
         return img;
-    }*/
+    }
 
-}
+}*/
