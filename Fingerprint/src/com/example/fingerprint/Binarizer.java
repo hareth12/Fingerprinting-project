@@ -3,12 +3,15 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
 
 import Catalano.Imaging.FastBitmap;
+import Catalano.Imaging.Filters.BrightnessCorrection;
+import Catalano.Imaging.Filters.ContrastCorrection;
 import Catalano.Imaging.Filters.HistogramEqualization;
 import Catalano.Imaging.Filters.Threshold;
 
@@ -125,8 +128,34 @@ KINDA WORKS*/
         //img.toGrayscale();
         //GaborFilter gf = new GaborFilter();
         //gf.applyInPlace(img);
+        Bitmap bm = img.toBitmap();
 
-        divideAndConquer(0, 0, 15);
+        int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
+
+        bm.getPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
+
+        for (int i = 0; i < bm.getHeight() * bm.getWidth(); i++) {
+
+            if (allpixels[i] == Color.BLACK || allpixels[i] == Color.DKGRAY)
+                allpixels[i] = Color.WHITE;
+        }
+
+        bm.setPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
+        BrightnessCorrection brightnessCorrection = new BrightnessCorrection();
+        brightnessCorrection.applyInPlace(img);
+        ContrastCorrection cc = new ContrastCorrection();
+        cc.applyInPlace(img);
+        divideAndConquer(0, 0, 10);
+        //Conservative smoothing, works, but is slow as shit. Find another way
+        // ConservativeSmoothing cs = new ConservativeSmoothing(20);
+        //cs.applyInPlace(img);
+
+        /*Just a thought
+        img.recycle();
+        Bitmap newbm = Bitmap.createScaledBitmap(img.toBitmap(), 128, 96, false);
+        img = new FastBitmap(newbm);
+        */
+
 
         //this hist eq doesnt work here
         //histogramEqualization.applyInPlace(img);
@@ -244,18 +273,16 @@ KINDA WORKS*/
 
 
             */
+                //BrightnessCorrection brightnessCorrection = new BrightnessCorrection();
+                //brightnessCorrection.applyInPlace(img);
                 cell.toGrayscale();
-
-                Threshold threshold = new Threshold(getSumOfFastbitmap(cell, 0, 0, 0) /(cellsize*cellsize));
+                int cutoff  = getSumOfFastbitmap(cell, 0, 0, 0) /(cellsize*cellsize);
+                //Log.d("divideAndConquer", "cuttoff = " + cutoff);
+                Threshold threshold = new Threshold(cutoff);
                 threshold.applyInPlace(cell);
                 HistogramEqualization histo = new HistogramEqualization();
                 histo.applyInPlace(cell);
 
-
-
-
-
-                Log.d("divideAndConquer", "filtered at x = " + x + ", y = " + y);
                 img = copyPixels(cell, 0, 0, cellsize, cellsize, 0, 0, img, x, y, x + cellsize, y + cellsize);
                 cell.recycle();
                 divideAndConquer(x + cellsize, y, cellsize);
