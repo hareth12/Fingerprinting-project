@@ -9,20 +9,13 @@ import android.util.Log;
 import java.io.File;
 
 import Catalano.Imaging.FastBitmap;
-import Catalano.Imaging.Filters.BrightnessCorrection;
-import Catalano.Imaging.Filters.ConservativeSmoothing;
-import Catalano.Imaging.Filters.FourierTransform;
-import Catalano.Imaging.Filters.FrequencyFilter;
 import Catalano.Imaging.Filters.HistogramEqualization;
-import Catalano.Imaging.Filters.Invert;
-import Catalano.Imaging.Filters.Sharpen;
 import Catalano.Imaging.Filters.Threshold;
 
 
 /**
  * Created by kenny on 11/12/14.
  */
-
 public class Binarizer extends Activity {
 
 
@@ -65,10 +58,10 @@ public class Binarizer extends Activity {
         for (IntPoint p : list) {
             img.setRGB(p, 0, 0, 0);
         }*/
-
+/*
         Bitmap bm = img.toBitmap();
 
-        /*int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
+        int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
 
         bm.getPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
 
@@ -79,30 +72,61 @@ public class Binarizer extends Activity {
         }
 
         bm.setPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
-*/
+
         BrightnessCorrection brightnessCorrection = new BrightnessCorrection(50);
         brightnessCorrection.applyInPlace(img);
+        Log.d("testThings", "corrected Brightness");
 
         HistogramEqualization histogramEqualization = new HistogramEqualization();
         histogramEqualization.applyInPlace(img);
+
+        Log.d("testThings", "Histogram equalized");
+
+
+        Sharpen sharpen = new Sharpen();
+        sharpen.applyInPlace(img);
+        Log.d("testThings", "sharpened");
+        //ACE... idk wtf it does yet
+        //AdaptiveContrastEnhancement ace = new AdaptiveContrastEnhancement(cellsize, .5, .5, 100, 100);
+        //ace.applyInPlace(cell);
+
+        Log.d("testThings", "smoothed");
+        ContrastCorrection cc = new ContrastCorrection();
+        cc.applyInPlace(img);
+        Log.d("testThings", "corrected contrast");
+
+
+
+
         img.toGrayscale();
-
-
         Log.d("testThings", "img to gray");
+
+        GaborFilter gf = new GaborFilter();
+        gf.applyInPlace(img);
+        Log.d("testThings", "Gabor filtered");
+
+        ConservativeSmoothing cs = new ConservativeSmoothing();
+        cs.applyInPlace(img);
+
         FourierTransform ft = new FourierTransform(img);
         Log.d("testThings", "created ft");
         ft.Forward();
         Log.d("testThings", "went forward in ft");
-        FrequencyFilter ff = new FrequencyFilter(30, 75);
+        FrequencyFilter ff = new FrequencyFilter(40, 70);
         ff.ApplyInPlace(ft);
         ft.Backward();
         Log.d("testThings", "went backward in ft");
         img = ft.toFastBitmap();
         divideAndConquer(0, 0, 50);
-        Threshold threshold = new Threshold(15);
-        threshold.applyInPlace(img);
+
         Invert invert = new Invert();
         invert.applyInPlace(img);
+KINDA WORKS*/
+        //img.toGrayscale();
+        //GaborFilter gf = new GaborFilter();
+        //gf.applyInPlace(img);
+
+        divideAndConquer(0, 0, 15);
 
         //this hist eq doesnt work here
         //histogramEqualization.applyInPlace(img);
@@ -187,34 +211,27 @@ public class Binarizer extends Activity {
     }
 
     public FastBitmap copyPixels(FastBitmap src, int xstartsrc, int ystartsrc, int xendsrc, int yendsrc, int xpos, int ypos, FastBitmap dest, int xstartdest, int ystartdest, int xenddest, int yenddest) {
-        if (((ystartdest + ypos == yenddest) && (ystartsrc + ypos == yendsrc))&&((xstartdest +xpos == xenddest)&&(xstartsrc + xpos == xendsrc)))
-            return dest;
-        else {
-            if (((xstartdest + xpos < xenddest) && (xstartsrc + xpos < xendsrc)) && ((ystartdest + ypos < yenddest) && (ystartsrc + ypos < yendsrc))) {
-                Log.d("copyPixels", "xstartsrc = " + xstartsrc + ", ystartsrc = " + ystartsrc + ", xendsrc = " + xendsrc + ", yendsrc = " + yendsrc + ", xpos = " + xpos + ", ypos = " + ypos + ", xstartdest = " + xstartdest + ", ystartdest = " + ystartdest + ", xenddest = " + xenddest + ", yenddest = " + yenddest);
-                dest.setRGB(xstartdest + xpos, ystartdest + ypos, src.getRGB(xstartsrc + xpos, ystartsrc + ypos));
-
-                return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest);
-            } else {
+      if (((xstartdest + xpos < xenddest) && (xstartsrc + xpos < xendsrc)) && ((ystartdest + ypos < yenddest) && (ystartsrc + ypos < yendsrc))){
+          //Log.d("copyPixels", "xstartsrc = " + xstartsrc + ", ystartsrc = " + ystartsrc + ", xendsrc = " + xendsrc + ", yendsrc = " + yendsrc + ", xpos = " + xpos + ", ypos = " + ypos + ", xstartdest = " + xstartdest + ", ystartdest = " + ystartdest + ", xenddest = " + xenddest + ", yenddest = " + yenddest);
+          dest.setRGB(xstartdest + xpos, ystartdest + ypos, src.getRGB(xstartsrc + xpos, ystartsrc + ypos));
+          return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest);
+      }
+      else {
                 if ((xstartdest + xpos >= xenddest) && (xstartsrc + xpos >= xendsrc)) {
                     return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, 0, ypos + 1, dest, xstartdest, ystartdest, xenddest, yenddest);
-                } else {
-                    Log.d("copyPixels", "uhoh");
+                }
+                else {
                     return dest;
                 }
             }
-        }
     }
 
 
     public void divideAndConquer(int x, int y, int cellsize) {
         Log.d("divideAndConquer", "x = " + x + ", y = " + y + ",w = " + img.getWidth() + ", h = " + img.getHeight());
-        if (x + cellsize >= img.getHeight() && y == img.getWidth())
-            return;
-//It reaches 768 for x in this function, causin out of bounds error   
+        if (x + cellsize >= img.getHeight() && y == img.getWidth()){}
         else {
             if ((x + cellsize) < img.getHeight() && y < img.getWidth()) {
-                Log.d("divideAndConquer", "got in");
                 FastBitmap cell = new FastBitmap(cellsize, cellsize);
                 cell = copyPixels(img, x, y, x + cellsize, y + cellsize, 0, 0, cell, 0, 0, cellsize, cellsize);
             /*
@@ -222,38 +239,51 @@ public class Binarizer extends Activity {
             Sharpen sharpen = new Sharpen();
             sharpen.applyInPlace(cell);
 
-            BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(30);
-            bradleyLocalThreshold.applyInPlace(cell);
+            BradleyLocalThreshold bradleyLocalThreshold = new BradleyLocalThreshold(10);
+                bradleyLocalThreshold.applyInPlace(cell);
+
+
             */
                 cell.toGrayscale();
 
-                Sharpen sharpen = new Sharpen();
-                sharpen.applyInPlace(cell);
-                //ACE... idk wtf it does yet
-                //AdaptiveContrastEnhancement ace = new AdaptiveContrastEnhancement(cellsize, .5, .5, 100, 100);
-                //ace.applyInPlace(cell);
-                ConservativeSmoothing cs = new ConservativeSmoothing();
-                cs.applyInPlace(cell);
+                Threshold threshold = new Threshold(getSumOfFastbitmap(cell, 0, 0, 0) /(cellsize*cellsize));
+                threshold.applyInPlace(cell);
+                HistogramEqualization histo = new HistogramEqualization();
+                histo.applyInPlace(cell);
+
+
 
 
 
                 Log.d("divideAndConquer", "filtered at x = " + x + ", y = " + y);
                 img = copyPixels(cell, 0, 0, cellsize, cellsize, 0, 0, img, x, y, x + cellsize, y + cellsize);
                 cell.recycle();
-                Log.d("divideAndConquer", "opening new div/conq");
                 divideAndConquer(x + cellsize, y, cellsize);
-                return;
             } else {
                 if (y < img.getWidth()) {
                     Log.d("divideAndConquer", "move down line");
                     divideAndConquer(0, y + cellsize, cellsize);
-                    return;
                 } else {
                     Log.d("divideAndConquer", "uh oh");
-                    return;
                 }
             }
         }
+    }
+
+    public int getSumOfFastbitmap(FastBitmap fb, int x, int y, int sum){
+        if(x < fb.getHeight() - 1){
+            sum = sum + fb.getGray(x,y);
+            return getSumOfFastbitmap(fb, x + 1, y, sum);
+        }
+        else {
+            if (y < fb.getWidth()){
+                return getSumOfFastbitmap(fb, 0, y + 1, sum);
+            }
+            else{
+                return sum;
+            }
+        }
+
     }
 
     public Bitmap getBitmap() {
@@ -314,7 +344,7 @@ public class Binarizer extends Activity {
         Log.d("openImage", "get here in openImage");
 
         // open image (temporary way of opening image)
-        path = imgPath.getAbsolutePath().toString();
+        path = imgPath.getAbsolutePath();
 
         //to make this test with fingerprint image included in package
         //createFingerPrintThere(path);
