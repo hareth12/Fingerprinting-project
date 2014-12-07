@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ProcessActivity extends Activity {
     Binarizer img = new Binarizer();
@@ -48,7 +49,11 @@ public class ProcessActivity extends Activity {
 
     public void binarizer(View view) {
         Log.d("binarizer", "entering test things");
+        double time = System.currentTimeMillis();
         img.testThings();
+        TextView t = (TextView) findViewById(R.id.report_time);
+        time = (System.currentTimeMillis() - time) / 1000;
+        t.setText("Algorithm took " + time + " seconds");
         Log.d("binarizer", "got past test things");
     }
 

@@ -359,6 +359,7 @@ public final class R {
 		public static final int abc_searchview_description_voice = 0x7f0a000c;
 		public static final int abc_shareactionprovider_share_with = 0x7f0a000d;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f0a000e;
+		public static final int report_time = 0x7f0a001a;
 	}
 	public static final class style {
 		public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog = 0x7f0b0005;

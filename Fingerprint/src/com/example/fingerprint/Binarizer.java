@@ -3,18 +3,21 @@ package com.example.fingerprint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
+import java.util.ArrayList;
 
+import Catalano.Core.IntPoint;
+import Catalano.Imaging.Corners.SusanCornersDetector;
 import Catalano.Imaging.FastBitmap;
 import Catalano.Imaging.Filters.BrightnessCorrection;
+import Catalano.Imaging.Filters.ConservativeSmoothing;
 import Catalano.Imaging.Filters.ContrastCorrection;
 import Catalano.Imaging.Filters.HistogramEqualization;
 import Catalano.Imaging.Filters.Invert;
-import Catalano.Imaging.Filters.Threshold;
+import Catalano.Imaging.Filters.Sharpen;
 
 
 /**
@@ -48,7 +51,7 @@ public class Binarizer extends Activity {
         Log.d("crop", "initialized vars");
         Bitmap croppedBm = Bitmap.createBitmap(bm, startx, starty, endx, endy);
         Log.d("crop", "crop applied");
-        Bitmap scaledBm = Bitmap.createScaledBitmap(croppedBm, 1024, 768, false);
+        Bitmap scaledBm = Bitmap.createScaledBitmap(croppedBm, 1024, 768, false);//was 1024 x 768
         Log.d("crop", "bitmap scaled");
         img = new FastBitmap(scaledBm);
         bm.recycle();
@@ -56,12 +59,9 @@ public class Binarizer extends Activity {
 
 
     public void testThings() {
+
 //THIS WORKS
-        /*SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
-        ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
-        for (IntPoint p : list) {
-            img.setRGB(p, 0, 0, 0);
-        }*/
+
 /*
         Bitmap bm = img.toBitmap();
 
@@ -87,9 +87,7 @@ public class Binarizer extends Activity {
         Log.d("testThings", "Histogram equalized");
 
 
-        Sharpen sharpen = new Sharpen();
-        sharpen.applyInPlace(img);
-        Log.d("testThings", "sharpened");
+
         //ACE... idk wtf it does yet
         //AdaptiveContrastEnhancement ace = new AdaptiveContrastEnhancement(cellsize, .5, .5, 100, 100);
         //ace.applyInPlace(cell);
@@ -112,47 +110,81 @@ public class Binarizer extends Activity {
         ConservativeSmoothing cs = new ConservativeSmoothing();
         cs.applyInPlace(img);
 
-        FourierTransform ft = new FourierTransform(img);
-        Log.d("testThings", "created ft");
-        ft.Forward();
-        Log.d("testThings", "went forward in ft");
-        FrequencyFilter ff = new FrequencyFilter(40, 70);
-        ff.ApplyInPlace(ft);
-        ft.Backward();
-        Log.d("testThings", "went backward in ft");
-        img = ft.toFastBitmap();
+
         divideAndConquer(0, 0, 50);
 
         Invert invert = new Invert();
         invert.applyInPlace(img);
 KINDA WORKS*/
-        //img.toGrayscale();
-        //GaborFilter gf = new GaborFilter();
-        //gf.applyInPlace(img);
+
+
+
+        BrightnessCorrection brightnessCorrection = new BrightnessCorrection(50);
+        brightnessCorrection.applyInPlace(img);
+        ContrastCorrection cc = new ContrastCorrection();
+        cc.applyInPlace(img);
+        Sharpen sharpen = new Sharpen();
+        sharpen.applyInPlace(img);
+        Log.d("testThings", "sharpened");
+
+        //remove dark pixels and replace with white
+
+        /*
+
         Bitmap bm = img.toBitmap();
-
         int[] allpixels = new int[bm.getHeight() * bm.getWidth()];
-
         bm.getPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
 
         for (int i = 0; i < bm.getHeight() * bm.getWidth(); i++) {
 
-            if (allpixels[i] == Color.BLACK || allpixels[i] == Color.DKGRAY)
+            if (allpixels[i] == Color.BLACK || allpixels[i] == Color.DKGRAY || allpixels[i] ==Color.GRAY)
                 allpixels[i] = Color.WHITE;
         }
 
         bm.setPixels(allpixels, 0, bm.getWidth(), 0, 0, bm.getWidth(), bm.getHeight());
-        BrightnessCorrection brightnessCorrection = new BrightnessCorrection();
+        */
+
+        brightnessCorrection = new BrightnessCorrection(20);
         brightnessCorrection.applyInPlace(img);
-        ContrastCorrection cc = new ContrastCorrection();
+        cc = new ContrastCorrection();
         cc.applyInPlace(img);
-        divideAndConquer(0, 0, 10);
-        //Conservative smoothing, works, but is slow as shit. Find another way
-        // ConservativeSmoothing cs = new ConservativeSmoothing(20);
+        divideAndConquer(0, 0, 20);
+        ConservativeSmoothing cs = new ConservativeSmoothing(15);
+        cs.applyInPlace(img);
+        //divideAndConquer(0,0,20);
+        //cs = new ConservativeSmoothing(30);
         //cs.applyInPlace(img);
+        img.toGrayscale();
+
+        /*FourierTransform ft = new FourierTransform(img);
+        Log.d("testThings", "created ft");
+        ft.Forward();
+        Log.d("testThings", "went forward in ft");
+        FrequencyFilter ff = new FrequencyFilter(0, 30);
+        ff.ApplyInPlace(ft);
+        ft.Backward();
+        Log.d("testThings", "went backward in ft");
+        img = ft.toFastBitmap();
+*/
+        //CannyEdgeDetector cannyEdgeDetector = new CannyEdgeDetector();
+        //cannyEdgeDetector.applyInPlace(img);
+
         Invert invert = new Invert();
         invert.applyInPlace(img);
 
+        SusanCornersDetector susanCornersDetector = new SusanCornersDetector();
+        ArrayList<IntPoint> list = susanCornersDetector.ProcessImage(img);
+        for (IntPoint p : list) {
+            img.setGray(p, 0);
+        }
+
+        //Conservative smoothing, works, but is slow as shit. Find another way
+        //ConservativeSmoothing cs = new ConservativeSmoothing(10);
+        //cs.applyInPlace(img);
+
+        //img.toGrayscale();
+        //GaborFilter gf = new GaborFilter();
+        //gf.applyInPlace(img);
         /*Just a thought
         img.recycle();
         Bitmap newbm = Bitmap.createScaledBitmap(img.toBitmap(), 128, 96, false);
@@ -162,7 +194,8 @@ KINDA WORKS*/
 
         //this hist eq doesnt work here
         //histogramEqualization.applyInPlace(img);
-
+// ConservativeSmoothing cs = new ConservativeSmoothing(20);
+        //cs.applyInPlace(img);
 
         //CannyEdgeDetector cannyEdgeDetector = new CannyEdgeDetector(10,20);
         //cannyEdgeDetector.applyInPlace(img);
@@ -240,17 +273,30 @@ KINDA WORKS*/
 
             }
         }*/
+
     }
 
-    public FastBitmap copyPixels(FastBitmap src, int xstartsrc, int ystartsrc, int xendsrc, int yendsrc, int xpos, int ypos, FastBitmap dest, int xstartdest, int ystartdest, int xenddest, int yenddest) {
+    public FastBitmap copyPixels(FastBitmap src, int xstartsrc, int ystartsrc, int xendsrc, int yendsrc, int xpos, int ypos, FastBitmap dest, int xstartdest, int ystartdest, int xenddest, int yenddest, int cutoff) {
       if (((xstartdest + xpos < xenddest) && (xstartsrc + xpos < xendsrc)) && ((ystartdest + ypos < yenddest) && (ystartsrc + ypos < yendsrc))){
           //Log.d("copyPixels", "xstartsrc = " + xstartsrc + ", ystartsrc = " + ystartsrc + ", xendsrc = " + xendsrc + ", yendsrc = " + yendsrc + ", xpos = " + xpos + ", ypos = " + ypos + ", xstartdest = " + xstartdest + ", ystartdest = " + ystartdest + ", xenddest = " + xenddest + ", yenddest = " + yenddest);
-          dest.setRGB(xstartdest + xpos, ystartdest + ypos, src.getRGB(xstartsrc + xpos, ystartsrc + ypos));
-          return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest);
+          if (cutoff >= 0) {
+              if (src.getGray(xstartsrc + xpos, ystartsrc + ypos) <= cutoff){
+                  dest.setGray(xstartdest + xpos, ystartdest + ypos, 0);
+                  return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest, cutoff);
+              }
+              else{
+                  dest.setGray(xstartdest + xpos, ystartdest + ypos, 255);
+                  return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest, cutoff);
+              }
+          }
+          else {
+              dest.setRGB(xstartdest + xpos, ystartdest + ypos, src.getRGB(xstartsrc + xpos, ystartsrc + ypos));
+              return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, xpos + 1, ypos, dest, xstartdest, ystartdest, xenddest, yenddest, cutoff);
+          }
       }
       else {
                 if ((xstartdest + xpos >= xenddest) && (xstartsrc + xpos >= xendsrc)) {
-                    return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, 0, ypos + 1, dest, xstartdest, ystartdest, xenddest, yenddest);
+                    return copyPixels(src, xstartsrc, ystartsrc, xendsrc, yendsrc, 0, ypos + 1, dest, xstartdest, ystartdest, xenddest, yenddest, cutoff);
                 }
                 else {
                     return dest;
@@ -265,7 +311,7 @@ KINDA WORKS*/
         else {
             if ((x + cellsize) < img.getHeight() && y < img.getWidth()) {
                 FastBitmap cell = new FastBitmap(cellsize, cellsize);
-                cell = copyPixels(img, x, y, x + cellsize, y + cellsize, 0, 0, cell, 0, 0, cellsize, cellsize);
+                cell = copyPixels(img, x, y, x + cellsize, y + cellsize, 0, 0, cell, 0, 0, cellsize, cellsize, -1);
             /*
             filters
             Sharpen sharpen = new Sharpen();
@@ -278,15 +324,19 @@ KINDA WORKS*/
             */
                 //BrightnessCorrection brightnessCorrection = new BrightnessCorrection();
                 //brightnessCorrection.applyInPlace(img);
-                cell.toGrayscale();
-                int cutoff  = getSumOfFastbitmap(cell, 0, 0, 0) /(cellsize*cellsize);
-                //Log.d("divideAndConquer", "cuttoff = " + cutoff);
-                Threshold threshold = new Threshold(cutoff);
-                threshold.applyInPlace(cell);
                 HistogramEqualization histo = new HistogramEqualization();
                 histo.applyInPlace(cell);
+                cell.toGrayscale();
+                int cutoff  = getSumOfFastbitmap(cell, 0, 0, 0) /(cellsize*cellsize);
+                Log.d("divideAndConquer", "cuttoff = " + cutoff);
+                /*Temporary
+                Threshold threshold = new Threshold(cutoff);
 
-                img = copyPixels(cell, 0, 0, cellsize, cellsize, 0, 0, img, x, y, x + cellsize, y + cellsize);
+                threshold.applyInPlace(cell);
+                HistogramEqualization histo = new HistogramEqualization();
+                histo.applyInPlace(cell);*/
+
+                img = copyPixels(cell, 0, 0, cellsize, cellsize, 0, 0, img, x, y, x + cellsize, y + cellsize, cutoff);
                 cell.recycle();
                 divideAndConquer(x + cellsize, y, cellsize);
             } else {

@@ -56,6 +56,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageview"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/report_time"
+        android:id="@+id/report_time"
+        android:layout_above="@+id/again"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
