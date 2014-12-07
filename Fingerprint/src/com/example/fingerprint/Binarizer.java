@@ -13,6 +13,7 @@ import Catalano.Imaging.FastBitmap;
 import Catalano.Imaging.Filters.BrightnessCorrection;
 import Catalano.Imaging.Filters.ContrastCorrection;
 import Catalano.Imaging.Filters.HistogramEqualization;
+import Catalano.Imaging.Filters.Invert;
 import Catalano.Imaging.Filters.Threshold;
 
 
@@ -149,6 +150,8 @@ KINDA WORKS*/
         //Conservative smoothing, works, but is slow as shit. Find another way
         // ConservativeSmoothing cs = new ConservativeSmoothing(20);
         //cs.applyInPlace(img);
+        Invert invert = new Invert();
+        invert.applyInPlace(img);
 
         /*Just a thought
         img.recycle();

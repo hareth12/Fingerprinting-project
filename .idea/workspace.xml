@@ -1156,8 +1156,8 @@
       <file leaf-file-name="Binarizer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6035242" vertical-offset="2390" max-vertical-offset="7812">
-              <caret line="148" column="78" selection-start-line="148" selection-start-column="78" selection-end-line="148" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.88105726" vertical-offset="2354" max-vertical-offset="7866">
+              <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2832,7 +2832,11 @@
       <created>1417905194048</created>
       <updated>1417905194048</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="good shit&#10;">
+      <created>1417909412420</created>
+      <updated>1417909412420</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2901,7 +2905,8 @@
     <MESSAGE value="working on fourier and other things" />
     <MESSAGE value="working on shit" />
     <MESSAGE value="dude... MY ALGORITHM IS AWESOME!&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="dude... MY ALGORITHM IS AWESOME!&#10;" />
+    <MESSAGE value="good shit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="good shit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3297,8 +3302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fingerprint/src/com/example/fingerprint/Binarizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6035242" vertical-offset="2390" max-vertical-offset="7812">
-          <caret line="148" column="78" selection-start-line="148" selection-start-column="78" selection-end-line="148" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.88105726" vertical-offset="2354" max-vertical-offset="7866">
+          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
